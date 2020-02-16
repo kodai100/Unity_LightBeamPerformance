@@ -13,7 +13,9 @@ This package can create light beam performance with Unity's timeline functionali
 We used "Noriben Light Beam" shader in this project. 
 
 Read the license in the following link.
+
 [https://booth.pm/ja/items/1637978](https://booth.pm/ja/items/1637978)
+
 In a nutshell, redistribution is prohibited.
 
 Noriben (Twitter) : [https://twitter.com/noriben327](https://twitter.com/noriben327)
