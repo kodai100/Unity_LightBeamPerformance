@@ -1,7 +1,8 @@
 # Light Beam Performance
 
 This package can create light beam performance with Unity's timeline functionality.
-![thumbnail](https://i.gyazo.com/3b312105f8b8f8c829be541ef03ad0bf.gif)
+
+[![Image from Gyazo](https://i.gyazo.com/3b312105f8b8f8c829be541ef03ad0bf.gif)](https://gyazo.com/3b312105f8b8f8c829be541ef03ad0bf)
 
 # Usecase
 
