@@ -2,7 +2,7 @@
 
 This package can create light beam performance with Unity's timeline functionality.
 
-[![Image from Gyazo](https://i.gyazo.com/3b312105f8b8f8c829be541ef03ad0bf.gif)](https://gyazo.com/3b312105f8b8f8c829be541ef03ad0bf)
+![thumbnail](https://github.com/ProjectBLUE-000/Unity_LightBeamPerformance/blob/master/Assets/Packages/LightBeamPerformance/Textures/thumbnail.gif)
 
 # Usecase
 
