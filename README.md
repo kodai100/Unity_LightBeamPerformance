@@ -1,6 +1,7 @@
 # Light Beam Performance
 
-
+This package can create light beam performance with Unity's timeline functionality.
+![thumbnail](https://i.gyazo.com/3b312105f8b8f8c829be541ef03ad0bf.gif)
 
 # Usecase
 
@@ -15,3 +16,6 @@ Read the license in the following link.
 In a nutshell, redistribution is prohibited.
 
 Noriben (Twitter) : [https://twitter.com/noriben327](https://twitter.com/noriben327)
+
+# Code License
+[MIT](LICENSE.md)
