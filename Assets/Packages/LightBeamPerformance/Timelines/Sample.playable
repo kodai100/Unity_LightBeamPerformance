@@ -1975,30 +1975,6 @@ MonoBehaviour:
     speed: 1
     offsetStrength: 1
     lightBeamPerformance: {fileID: 0}
---- !u!114 &114087119678457770
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f30714cad5fb514f8a915ec7a174024, type: 3}
-  m_Name: LightPerformanceClip
-  m_EditorClassIdentifier: 
-  data:
-    addressType: 1
-    color: 0
-    saturation: 1
-    dimmer: 1
-    motion: 6
-    bpm: 120
-    lightColor: {r: 1, g: 1, b: 1, a: 1}
-    intensityMultiplier: 1
-    speed: 1
-    offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114088622168040032
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2425,30 +2401,6 @@ MonoBehaviour:
     speed: 1
     offsetStrength: 100
     lightBeamPerformance: {fileID: 0}
---- !u!114 &114176880168615110
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f30714cad5fb514f8a915ec7a174024, type: 3}
-  m_Name: LightPerformanceClip
-  m_EditorClassIdentifier: 
-  data:
-    addressType: 1
-    color: 0
-    saturation: 1
-    dimmer: 1
-    motion: 6
-    bpm: 120
-    lightColor: {r: 1, g: 1, b: 1, a: 1}
-    intensityMultiplier: 1
-    speed: 1
-    offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114180419502098684
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2779,30 +2731,6 @@ MonoBehaviour:
     speed: 4
     offsetStrength: 10
     lightBeamPerformance: {fileID: 0}
---- !u!114 &114249420747097472
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f30714cad5fb514f8a915ec7a174024, type: 3}
-  m_Name: LightPerformanceClip
-  m_EditorClassIdentifier: 
-  data:
-    addressType: 1
-    color: 0
-    saturation: 1
-    dimmer: 0
-    motion: 6
-    bpm: 120
-    lightColor: {r: 1, g: 0.6117647, b: 0, a: 1}
-    intensityMultiplier: 0.5
-    speed: 1
-    offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114250800666570014
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3039,30 +2967,6 @@ MonoBehaviour:
     speed: 1
     offsetStrength: 1
     lightBeamPerformance: {fileID: 0}
---- !u!114 &114330451860058258
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f30714cad5fb514f8a915ec7a174024, type: 3}
-  m_Name: LightPerformanceClip
-  m_EditorClassIdentifier: 
-  data:
-    addressType: 1
-    color: 0
-    saturation: 1
-    dimmer: 0
-    motion: 6
-    bpm: 120
-    lightColor: {r: 1, g: 0.6117647, b: 0, a: 1}
-    intensityMultiplier: 0.5
-    speed: 1
-    offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114331252851800512
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3087,54 +2991,6 @@ MonoBehaviour:
     speed: 1
     offsetStrength: 1
     lightBeamPerformance: {fileID: 0}
---- !u!114 &114338697085344982
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f30714cad5fb514f8a915ec7a174024, type: 3}
-  m_Name: LightPerformanceClip
-  m_EditorClassIdentifier: 
-  data:
-    addressType: 1
-    color: 0
-    saturation: 1
-    dimmer: 0
-    motion: 5
-    bpm: 120
-    lightColor: {r: 1, g: 0.65705234, b: 0, a: 1}
-    intensityMultiplier: 1
-    speed: 1
-    offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
---- !u!114 &114341945589086586
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f30714cad5fb514f8a915ec7a174024, type: 3}
-  m_Name: LightPerformanceClip
-  m_EditorClassIdentifier: 
-  data:
-    addressType: 1
-    color: 0
-    saturation: 1
-    dimmer: 0
-    motion: 6
-    bpm: 120
-    lightColor: {r: 1, g: 0, b: 0, a: 1}
-    intensityMultiplier: 1
-    speed: 1
-    offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114345280173570624
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3152,30 +3008,6 @@ MonoBehaviour:
     color: 0
     saturation: 1
     dimmer: 0
-    motion: 6
-    bpm: 120
-    lightColor: {r: 1, g: 1, b: 1, a: 1}
-    intensityMultiplier: 1
-    speed: 1
-    offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
---- !u!114 &114356390154795730
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f30714cad5fb514f8a915ec7a174024, type: 3}
-  m_Name: LightPerformanceClip
-  m_EditorClassIdentifier: 
-  data:
-    addressType: 1
-    color: 0
-    saturation: 1
-    dimmer: 1
     motion: 6
     bpm: 120
     lightColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3301,146 +3133,8 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: 114604538665949782}
-    m_Duration: 5.666666666666667
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114384044048756316}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: LightPerformanceClip
-  - m_Version: 1
-    m_Start: 5.666666666666667
-    m_ClipIn: 0
-    m_Asset: {fileID: 114765407722329024}
-    m_Duration: 1.4294451359038551
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114384044048756316}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: LightPerformanceClip
-  - m_Version: 1
-    m_Start: 7.096111802570518
-    m_ClipIn: 0
     m_Asset: {fileID: 114795012195079038}
-    m_Duration: 6.896085568020741
+    m_Duration: 2.2333333333333334
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114384044048756316}
     m_EaseInDuration: 0
@@ -3506,10 +3200,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 13.992197370591251
+    m_Start: 2.2333333333333334
     m_ClipIn: 0
     m_Asset: {fileID: 114938379982694428}
-    m_Duration: 3.2327285930514336
+    m_Duration: 2.2
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114384044048756316}
     m_EaseInDuration: 0
@@ -3575,7 +3269,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 17.224925963642683
+    m_Start: 4.433333333333334
     m_ClipIn: 0
     m_Asset: {fileID: 114075562497973374}
     m_Duration: 1.7115894993767142
@@ -3644,10 +3338,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 18.936515463019404
+    m_Start: 6.144922832710048
     m_ClipIn: 0
     m_Asset: {fileID: 114626158781457184}
-    m_Duration: 3.413795671301582
+    m_Duration: 1.8550771672899522
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114384044048756316}
     m_EaseInDuration: 0
@@ -3713,10 +3407,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 22.350311134321018
+    m_Start: 8.000000000000002
     m_ClipIn: 0
     m_Asset: {fileID: 114088622168040032}
-    m_Duration: 5.488271902315322
+    m_Duration: 2.04128149598837
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114384044048756316}
     m_EaseInDuration: 0
@@ -3782,976 +3476,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 27.838583036636344
-    m_ClipIn: 0
-    m_Asset: {fileID: 114249420747097472}
-    m_Duration: 14.177627759364743
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114384044048756316}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: LightPerformanceClip
-  - m_Version: 1
-    m_Start: 42.01621079600103
-    m_ClipIn: 0
-    m_Asset: {fileID: 114995932769608742}
-    m_Duration: 0.08378920399893985
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114384044048756316}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: LightPerformanceClip
-  - m_Version: 1
-    m_Start: 42.099999999999966
-    m_ClipIn: 0
-    m_Asset: {fileID: 114639886303750774}
-    m_Duration: 0.0785341954479648
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114384044048756316}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: LightPerformanceClip
-  - m_Version: 1
-    m_Start: 42.17853419544794
-    m_ClipIn: 0
-    m_Asset: {fileID: 114341945589086586}
-    m_Duration: 0.07146580455170692
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114384044048756316}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: LightPerformanceClip
-  - m_Version: 1
-    m_Start: 42.249999999999645
-    m_ClipIn: 0
-    m_Asset: {fileID: 114356390154795730}
-    m_Duration: 0.5333333333336654
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114384044048756316}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: LightPerformanceClip
-  - m_Version: 1
-    m_Start: 42.7833333333333
-    m_ClipIn: 0
-    m_Asset: {fileID: 114473816248021382}
-    m_Duration: 2.9833333333333343
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114384044048756316}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: LightPerformanceClip
-  - m_Version: 1
-    m_Start: 45.76666666666664
-    m_ClipIn: 0
-    m_Asset: {fileID: 114330451860058258}
-    m_Duration: 12.08072807509452
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114384044048756316}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: LightPerformanceClip
-  - m_Version: 1
-    m_Start: 57.847394741761164
-    m_ClipIn: 0
-    m_Asset: {fileID: 114825767020212208}
-    m_Duration: 0.25260525823880897
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114384044048756316}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: LightPerformanceClip
-  - m_Version: 1
-    m_Start: 58.09999999999964
-    m_ClipIn: 0
-    m_Asset: {fileID: 114891413266426966}
-    m_Duration: 0.41666666666700536
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114384044048756316}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: LightPerformanceClip
-  - m_Version: 1
-    m_Start: 58.85260525823878
-    m_ClipIn: 0
-    m_Asset: {fileID: 114087119678457770}
-    m_Duration: 0.4304281425351988
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114384044048756316}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: LightPerformanceClip
-  - m_Version: 1
-    m_Start: 58.51666666666664
-    m_ClipIn: 0
-    m_Asset: {fileID: 114402884980392750}
-    m_Duration: 0.33593859157213757
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114384044048756316}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: LightPerformanceClip
-  - m_Version: 1
-    m_Start: 59.283033400773974
-    m_ClipIn: 0
-    m_Asset: {fileID: 114409476683140384}
-    m_Duration: 1.0912231989204884
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114384044048756316}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: LightPerformanceClip
-  - m_Version: 1
-    m_Start: 60.37425659969446
-    m_ClipIn: 0
-    m_Asset: {fileID: 114702243704807572}
-    m_Duration: 0.45907673363883816
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114384044048756316}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: LightPerformanceClip
-  - m_Version: 1
-    m_Start: 60.8333333333333
-    m_ClipIn: 0
-    m_Asset: {fileID: 114667147572863744}
-    m_Duration: 2.783377199433744
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114384044048756316}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: LightPerformanceClip
-  - m_Version: 1
-    m_Start: 75.79609416599057
+    m_Start: 11.102066838430858
     m_ClipIn: 0
     m_Asset: {fileID: 114665292203143892}
-    m_Duration: 10.398988922499129
+    m_Duration: 1.6979331615691429
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114384044048756316}
     m_EaseInDuration: 0
@@ -4817,214 +3545,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 63.616710532767044
-    m_ClipIn: 0
-    m_Asset: {fileID: 114657606706914966}
-    m_Duration: 12.179383633223672
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114384044048756316}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: LightPerformanceClip
-  - m_Version: 1
-    m_Start: 86.1950830884897
-    m_ClipIn: 0
-    m_Asset: {fileID: 114338697085344982}
-    m_Duration: 1.7228323007002473
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114384044048756316}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: LightPerformanceClip
-  - m_Version: 1
-    m_Start: 87.91791538918994
-    m_ClipIn: 0
-    m_Asset: {fileID: 114577103058975204}
-    m_Duration: 1.9079936984926462
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114384044048756316}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: LightPerformanceClip
-  - m_Version: 1
-    m_Start: 89.82590908768259
+    m_Start: 10.041281495988372
     m_ClipIn: 0
     m_Asset: {fileID: 114122017779931916}
     m_Duration: 1.060785342442486
@@ -5093,10 +3614,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 90.88669443012508
+    m_Start: 14.592051837344961
     m_ClipIn: 0
     m_Asset: {fileID: 114427370631116388}
-    m_Duration: 9.02973139937967
+    m_Duration: 4.537679562034711
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114384044048756316}
     m_EaseInDuration: 0
@@ -5162,7 +3683,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 99.91642582950475
+    m_Start: 19.129731399379686
     m_ClipIn: 0
     m_Asset: {fileID: 114381177852519166}
     m_Duration: 9.074514000676572
@@ -5231,7 +3752,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 108.99093983018132
+    m_Start: 28.204245400056244
     m_ClipIn: 0
     m_Asset: {fileID: 114936618765332128}
     m_Duration: 4.437121901661158
@@ -5300,76 +3821,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 113.42806173184248
-    m_ClipIn: 0
-    m_Asset: {fileID: 114115415340111016}
-    m_Duration: 3.427855799905956
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114384044048756316}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: LightPerformanceClip
-  - m_Version: 1
-    m_Start: 116.85591753174843
+    m_Start: 32.641367301717416
     m_ClipIn: 0
     m_Asset: {fileID: 114357526280633644}
     m_Duration: 1.0972798997536302
@@ -5438,7 +3890,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 117.95319743150206
+    m_Start: 33.738647201471046
     m_ClipIn: 0
     m_Asset: {fileID: 114399674986954326}
     m_Duration: 4.592512106709179
@@ -5507,7 +3959,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 122.54570953821148
+    m_Start: 38.33115930818047
     m_ClipIn: 0
     m_Asset: {fileID: 114875539572933728}
     m_Duration: 4.401920889504012
@@ -5576,7 +4028,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 126.94763042771547
+    m_Start: 42.73308019768444
     m_ClipIn: 0
     m_Asset: {fileID: 114521840627899110}
     m_Duration: 4.401920889504012
@@ -5645,7 +4097,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 131.34955131721944
+    m_Start: 47.13500108718841
     m_ClipIn: 0
     m_Asset: {fileID: 114543953136391218}
     m_Duration: 3.9600751793635425
@@ -5714,7 +4166,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 135.30962649658298
+    m_Start: 51.09507626655192
     m_ClipIn: 0
     m_Asset: {fileID: 114221605784081074}
     m_Duration: 3.395301505923271
@@ -5783,7 +4235,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 138.70492800250608
+    m_Start: 54.49037777247505
     m_ClipIn: 0
     m_Asset: {fileID: 114499701809127406}
     m_Duration: 12.861738664160185
@@ -5852,7 +4304,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 151.5666666666663
+    m_Start: 67.35211643663519
     m_ClipIn: 0
     m_Asset: {fileID: 114916161022793712}
     m_Duration: 6.090205130105204
@@ -5921,7 +4373,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 157.65687179677158
+    m_Start: 73.44232156674047
     m_ClipIn: 0
     m_Asset: {fileID: 114180419502098684}
     m_Duration: 6.119448002427816
@@ -5990,7 +4442,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 163.77631979919917
+    m_Start: 79.56176956916809
     m_ClipIn: 0
     m_Asset: {fileID: 114391976334383124}
     m_Duration: 3.057013534133631
@@ -6059,7 +4511,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 166.83333333333283
+    m_Start: 82.61878310330175
     m_ClipIn: 0
     m_Asset: {fileID: 114250800666570014}
     m_Duration: 3.074353029144305
@@ -6128,7 +4580,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 169.9076863624771
+    m_Start: 85.69313613244603
     m_ClipIn: 0
     m_Asset: {fileID: 114674991735506286}
     m_Duration: 2.7513568324347375
@@ -6197,7 +4649,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 172.6590431949119
+    m_Start: 88.44449296488082
     m_ClipIn: 0
     m_Asset: {fileID: 114525498958859542}
     m_Duration: 1.9013540018349886
@@ -6266,7 +4718,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 174.56039719674695
+    m_Start: 90.34584696671587
     m_ClipIn: 0
     m_Asset: {fileID: 114222983687070664}
     m_Duration: 1.6229361365859916
@@ -6335,7 +4787,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 176.1833333333329
+    m_Start: 91.96878310330183
     m_ClipIn: 0
     m_Asset: {fileID: 114047957010300342}
     m_Duration: 1.6166666666666458
@@ -6404,7 +4856,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 177.79999999999953
+    m_Start: 93.58544976996845
     m_ClipIn: 0
     m_Asset: {fileID: 114500147072732520}
     m_Duration: 12.552453198470175
@@ -6473,7 +4925,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 190.35245319846976
+    m_Start: 106.13790296843868
     m_ClipIn: 0
     m_Asset: {fileID: 114124694959675724}
     m_Duration: 12.295945107005537
@@ -6542,7 +4994,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 202.64839830547524
+    m_Start: 118.43384807544419
     m_ClipIn: 0
     m_Asset: {fileID: 114914545202231660}
     m_Duration: 6.362648501060903
@@ -6611,7 +5063,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 209.0110468065362
+    m_Start: 124.79649657650526
     m_ClipIn: 0
     m_Asset: {fileID: 114094887565625040}
     m_Duration: 3.5523125994950533
@@ -6680,7 +5132,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 212.5633594060312
+    m_Start: 128.34880917600037
     m_ClipIn: 0
     m_Asset: {fileID: 114202611062632620}
     m_Duration: 4.353307260635006
@@ -6749,7 +5201,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 216.9166666666662
+    m_Start: 132.70211643663538
     m_ClipIn: 0
     m_Asset: {fileID: 114404591048579558}
     m_Duration: 3.431566596031388
@@ -6818,7 +5270,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 220.3482332626974
+    m_Start: 136.13368303266657
     m_ClipIn: 0
     m_Asset: {fileID: 114217167696523366}
     m_Duration: 24.235100070635667
@@ -6887,10 +5339,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LightPerformanceClip
   - m_Version: 1
-    m_Start: 244.58333333333306
+    m_Start: 12.8
     m_ClipIn: 0
-    m_Asset: {fileID: 114176880168615110}
-    m_Duration: 105.81666666666595
+    m_Asset: {fileID: 114115415340111016}
+    m_Duration: 1.7920518373449603
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114384044048756316}
     m_EaseInDuration: 0
@@ -7029,30 +5481,6 @@ MonoBehaviour:
     speed: 1
     offsetStrength: 1
     lightBeamPerformance: {fileID: 0}
---- !u!114 &114402884980392750
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f30714cad5fb514f8a915ec7a174024, type: 3}
-  m_Name: LightPerformanceClip
-  m_EditorClassIdentifier: 
-  data:
-    addressType: 1
-    color: 0
-    saturation: 1
-    dimmer: 0
-    motion: 6
-    bpm: 120
-    lightColor: {r: 1, g: 1, b: 1, a: 1}
-    intensityMultiplier: 1
-    speed: 1
-    offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114403971278279024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7078,30 +5506,6 @@ MonoBehaviour:
     offsetStrength: 1
     lightBeamPerformance: {fileID: 0}
 --- !u!114 &114404591048579558
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f30714cad5fb514f8a915ec7a174024, type: 3}
-  m_Name: LightPerformanceClip
-  m_EditorClassIdentifier: 
-  data:
-    addressType: 1
-    color: 0
-    saturation: 1
-    dimmer: 0
-    motion: 6
-    bpm: 120
-    lightColor: {r: 1, g: 1, b: 1, a: 1}
-    intensityMultiplier: 1
-    speed: 1
-    offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
---- !u!114 &114409476683140384
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7473,30 +5877,6 @@ MonoBehaviour:
     speed: 1
     offsetStrength: 1
     laserPerformance: {fileID: 0}
---- !u!114 &114473816248021382
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f30714cad5fb514f8a915ec7a174024, type: 3}
-  m_Name: LightPerformanceClip
-  m_EditorClassIdentifier: 
-  data:
-    addressType: 1
-    color: 2
-    saturation: 1
-    dimmer: 0
-    motion: 6
-    bpm: 120
-    lightColor: {r: 1, g: 1, b: 1, a: 1}
-    intensityMultiplier: 1
-    speed: 1
-    offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114474010924765814
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7925,30 +6305,6 @@ MonoBehaviour:
     speed: 1
     offsetStrength: 1
     lightBeamPerformance: {fileID: 0}
---- !u!114 &114577103058975204
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f30714cad5fb514f8a915ec7a174024, type: 3}
-  m_Name: LightPerformanceClip
-  m_EditorClassIdentifier: 
-  data:
-    addressType: 1
-    color: 0
-    saturation: 1
-    dimmer: 0
-    motion: 6
-    bpm: 120
-    lightColor: {r: 1, g: 1, b: 1, a: 1}
-    intensityMultiplier: 1
-    speed: 1
-    offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114585902795796232
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7969,30 +6325,6 @@ MonoBehaviour:
     motion: 6
     bpm: 120
     lightColor: {r: 1, g: 0, b: 0, a: 1}
-    intensityMultiplier: 1
-    speed: 1
-    offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
---- !u!114 &114604538665949782
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f30714cad5fb514f8a915ec7a174024, type: 3}
-  m_Name: LightPerformanceClip
-  m_EditorClassIdentifier: 
-  data:
-    addressType: 1
-    color: 0
-    saturation: 1
-    dimmer: 1
-    motion: 6
-    bpm: 120
-    lightColor: {r: 1, g: 1, b: 1, a: 1}
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
@@ -8093,30 +6425,6 @@ MonoBehaviour:
     speed: 1
     offsetStrength: 100
     lightBeamPerformance: {fileID: 0}
---- !u!114 &114639886303750774
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f30714cad5fb514f8a915ec7a174024, type: 3}
-  m_Name: LightPerformanceClip
-  m_EditorClassIdentifier: 
-  data:
-    addressType: 1
-    color: 0
-    saturation: 1
-    dimmer: 1
-    motion: 6
-    bpm: 120
-    lightColor: {r: 1, g: 1, b: 1, a: 1}
-    intensityMultiplier: 1
-    speed: 1
-    offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114642263332258642
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8185,30 +6493,6 @@ MonoBehaviour:
   m_Children: []
   m_Clips: []
   m_Version: 2
---- !u!114 &114657606706914966
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f30714cad5fb514f8a915ec7a174024, type: 3}
-  m_Name: LightPerformanceClip
-  m_EditorClassIdentifier: 
-  data:
-    addressType: 1
-    color: 0
-    saturation: 1
-    dimmer: 2
-    motion: 6
-    bpm: 40
-    lightColor: {r: 1, g: 1, b: 1, a: 1}
-    intensityMultiplier: 1
-    speed: 1
-    offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114665292203143892
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8232,30 +6516,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 20
-    lightBeamPerformance: {fileID: 0}
---- !u!114 &114667147572863744
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f30714cad5fb514f8a915ec7a174024, type: 3}
-  m_Name: LightPerformanceClip
-  m_EditorClassIdentifier: 
-  data:
-    addressType: 1
-    color: 0
-    saturation: 1
-    dimmer: 0
-    motion: 6
-    bpm: 120
-    lightColor: {r: 1, g: 0, b: 0, a: 1}
-    intensityMultiplier: 1
-    speed: 1
-    offsetStrength: 1
     lightBeamPerformance: {fileID: 0}
 --- !u!114 &114674991735506286
 MonoBehaviour:
@@ -8400,30 +6660,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
---- !u!114 &114702243704807572
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f30714cad5fb514f8a915ec7a174024, type: 3}
-  m_Name: LightPerformanceClip
-  m_EditorClassIdentifier: 
-  data:
-    addressType: 1
-    color: 0
-    saturation: 1
-    dimmer: 0
-    motion: 5
-    bpm: 120
-    lightColor: {r: 1, g: 0.61547077, b: 0, a: 1}
-    intensityMultiplier: 1
-    speed: 1
-    offsetStrength: 1
     lightBeamPerformance: {fileID: 0}
 --- !u!114 &114707011314844182
 MonoBehaviour:
@@ -8607,30 +6843,6 @@ MonoBehaviour:
     motion: 6
     bpm: 120
     lightColor: {r: 1, g: 0, b: 0, a: 1}
-    intensityMultiplier: 1
-    speed: 1
-    offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
---- !u!114 &114765407722329024
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f30714cad5fb514f8a915ec7a174024, type: 3}
-  m_Name: LightPerformanceClip
-  m_EditorClassIdentifier: 
-  data:
-    addressType: 1
-    color: 0
-    saturation: 1
-    dimmer: 3
-    motion: 6
-    bpm: 40
-    lightColor: {r: 1, g: 1, b: 1, a: 1}
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
@@ -8825,30 +7037,6 @@ MonoBehaviour:
     speed: 1
     offsetStrength: 1
     lightBeamPerformance: {fileID: 0}
---- !u!114 &114825767020212208
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f30714cad5fb514f8a915ec7a174024, type: 3}
-  m_Name: LightPerformanceClip
-  m_EditorClassIdentifier: 
-  data:
-    addressType: 1
-    color: 0
-    saturation: 1
-    dimmer: 0
-    motion: 6
-    bpm: 120
-    lightColor: {r: 1, g: 1, b: 1, a: 1}
-    intensityMultiplier: 1
-    speed: 1
-    offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114832789912727548
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9018,30 +7206,6 @@ MonoBehaviour:
     offsetStrength: 140
     lightBeamPerformance: {fileID: 0}
 --- !u!114 &114879029622195640
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f30714cad5fb514f8a915ec7a174024, type: 3}
-  m_Name: LightPerformanceClip
-  m_EditorClassIdentifier: 
-  data:
-    addressType: 1
-    color: 0
-    saturation: 1
-    dimmer: 1
-    motion: 6
-    bpm: 120
-    lightColor: {r: 1, g: 1, b: 1, a: 1}
-    intensityMultiplier: 1
-    speed: 1
-    offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
---- !u!114 &114891413266426966
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9393,30 +7557,6 @@ MonoBehaviour:
     speed: 1
     offsetStrength: 1
     laserPerformance: {fileID: 0}
---- !u!114 &114995932769608742
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f30714cad5fb514f8a915ec7a174024, type: 3}
-  m_Name: LightPerformanceClip
-  m_EditorClassIdentifier: 
-  data:
-    addressType: 1
-    color: 0
-    saturation: 1
-    dimmer: 0
-    motion: 6
-    bpm: 120
-    lightColor: {r: 1, g: 0, b: 0, a: 1}
-    intensityMultiplier: 1
-    speed: 1
-    offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114996533586524782
 MonoBehaviour:
   m_ObjectHideFlags: 1

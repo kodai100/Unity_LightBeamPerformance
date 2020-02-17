@@ -928,13 +928,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AddressType: 1
-  ColorAnimationMode: 0
-  DimmerAnimationMode: 2
-  MotionAnimationMode: 4
+  ColorAnimationMode: 2
+  DimmerAnimationMode: 0
+  MotionAnimationMode: 6
   Target: {fileID: 2136006908}
-  LightColor: {r: 1, g: 1, b: 1, a: 1}
+  LightColor: {r: 0.998996, g: 1, b: 0, a: 1}
+  Saturation: 1
   Speed: 1
-  OffsetStrength: 20
+  OffsetStrength: 1
   panRange:
     min: -45
     max: 45
@@ -963,7 +964,7 @@ Transform:
   - {fileID: 1804831216}
   - {fileID: 799693538}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &682272240 stripped
 MonoBehaviour:
@@ -1091,7 +1092,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &754290798
 PrefabInstance:
@@ -1455,13 +1456,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.26235747, y: -0.3474497, z: 0.101905674, w: 0.89446217}
-  m_LocalPosition: {x: 12.056944, y: 9.035831, z: -7.126868}
+  m_LocalRotation: {x: 0.2843249, y: 0, z: 0, w: 0.95872796}
+  m_LocalPosition: {x: 0, y: 16.019505, z: -11.423593}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 33.037003, y: 0, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3255,7 +3256,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1693112055
 MonoBehaviour:
@@ -4242,7 +4243,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2137729127 stripped
 Transform:
