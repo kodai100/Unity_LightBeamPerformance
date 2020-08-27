@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
@@ -15,6 +16,8 @@ namespace ProjectBlue.LightBeamPerformance
         {
 
             var playable = ScriptPlayable<LightPerformanceMixerBehaviour>.Create(graph, inputCount);
+
+            playable.GetBehaviour().Clips = GetClips().ToArray();
             playable.GetBehaviour().Director = go.GetComponent<PlayableDirector>();
 
             return playable;

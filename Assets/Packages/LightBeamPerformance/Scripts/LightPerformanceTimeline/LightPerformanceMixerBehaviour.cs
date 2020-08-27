@@ -9,7 +9,7 @@ namespace ProjectBlue.LightBeamPerformance
     public class LightPerformanceMixerBehaviour : PlayableBehaviour
     {
 
-
+        public TimelineClip[] Clips { get; set; }
         public PlayableDirector Director { get; set; }
 
         public override void ProcessFrame(Playable playable, FrameData info, object playerData)
@@ -22,6 +22,8 @@ namespace ProjectBlue.LightBeamPerformance
 
 
             int inputCount = playable.GetInputCount();
+
+            double clipTime = Director.time;
 
             for (int i = 0; i < inputCount; i++)
             {
@@ -49,12 +51,14 @@ namespace ProjectBlue.LightBeamPerformance
                     trackBinding.Speed = inputBehaviour.speed;
                     trackBinding.OffsetStrength = inputBehaviour.offsetStrength;
 
+                    var clip = Clips[i];
+                    clipTime = Director.time - clip.start;
 
                     break;
                 }
             }
 
-            trackBinding.ProcessFrame(Director.time);
+            trackBinding.ProcessFrame(Director.time, clipTime);
 
         }
     }

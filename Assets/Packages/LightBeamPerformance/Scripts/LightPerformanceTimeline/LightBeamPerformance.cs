@@ -82,14 +82,14 @@ namespace ProjectBlue.LightBeamPerformance
 
         }
 
-        public void ProcessFrame(double time)
+        public void ProcessFrame(double masterTime, double clipTime)
         {
-            beat = bpm.SecondsToBeat((float)time);
+            beat = bpm.SecondsToBeat((float)clipTime);
 
             lightGroup.ForEach(group => {
 
                 group.lights.ForEach(light => {
-                    ProcessPerLight(light, (float) time);
+                    ProcessPerLight(light, (float) masterTime);
                 });
 
             });
@@ -97,11 +97,11 @@ namespace ProjectBlue.LightBeamPerformance
         }
 
 
-        void ProcessPerLight(MovingLight light, float time)
+        void ProcessPerLight(MovingLight light, float masterTime)
         {
-            ColorAnimation(light, time);
-            DimmerAnimation(light, time);
-            MotionAnimation(light, time);
+            ColorAnimation(light, masterTime);
+            DimmerAnimation(light, masterTime);
+            MotionAnimation(light, masterTime);
 
             light.Process();
         }
