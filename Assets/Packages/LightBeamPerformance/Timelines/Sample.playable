@@ -1902,7 +1902,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114035108799123348
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1926,7 +1925,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114047957010300342
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1950,7 +1948,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114075562497973374
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1974,7 +1971,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114088622168040032
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1998,7 +1994,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 14
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114092843206333916
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2044,7 +2039,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 140
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114098644318481136
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2092,7 +2086,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114122017779931916
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2116,7 +2109,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 50
     offsetStrength: 14
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114122704532144404
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2140,7 +2132,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114124694959675724
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2164,7 +2155,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 140
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114128686438547536
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2188,7 +2178,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114134955367809666
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2234,7 +2223,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114146475396418194
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2258,7 +2246,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114147928848173128
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2304,7 +2291,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114171498681965780
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2328,7 +2314,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114172827059720454
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2352,7 +2337,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114174426746333334
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2376,7 +2360,6 @@ MonoBehaviour:
     intensityMultiplier: 0.5
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114176456216973928
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2400,7 +2383,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114180419502098684
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2424,7 +2406,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 140
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114202380737913562
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2448,7 +2429,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114202611062632620
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2472,7 +2452,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 140
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114205285442255350
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2496,7 +2475,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114212377269182012
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2520,7 +2498,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114217167696523366
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2544,7 +2521,6 @@ MonoBehaviour:
     intensityMultiplier: 0.2
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114217772382692084
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2590,7 +2566,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114221605784081074
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2614,7 +2589,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114222983687070664
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2638,7 +2612,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 140
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114233467972187392
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2662,7 +2635,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114240302460714864
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2730,7 +2702,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 4
     offsetStrength: 10
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114250800666570014
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2754,7 +2725,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 140
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114251585765611654
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2778,7 +2748,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114259554475983396
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2802,7 +2771,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114262183210711784
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2826,7 +2794,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114264541337440338
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2850,7 +2817,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114280534189956410
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2896,7 +2862,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114299724180377990
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2920,7 +2885,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114311077213148312
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2966,7 +2930,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114331252851800512
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2990,7 +2953,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114345280173570624
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3014,7 +2976,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114357045227389878
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3038,7 +2999,6 @@ MonoBehaviour:
     intensityMultiplier: 0.5
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114357526280633644
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3062,7 +3022,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 50
     offsetStrength: 14
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114366123010624958
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3108,7 +3067,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 20
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114384044048756316
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5432,7 +5390,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114391976334383124
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5456,7 +5413,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 140
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114399674986954326
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5474,13 +5430,12 @@ MonoBehaviour:
     color: 0
     saturation: 1
     dimmer: 2
-    motion: 6
+    motion: 5
     bpm: 220
     lightColor: {r: 1, g: 1, b: 1, a: 1}
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114403971278279024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5504,7 +5459,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114404591048579558
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5528,7 +5482,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114414250823321600
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5552,7 +5505,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114414928491192862
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5598,7 +5550,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114427370631116388
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5618,11 +5569,10 @@ MonoBehaviour:
     dimmer: 2
     motion: 6
     bpm: 110
-    lightColor: {r: 1, g: 1, b: 1, a: 1}
+    lightColor: {r: 1, g: 0, b: 0, a: 1}
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114428036835140192
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5646,7 +5596,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 50
     offsetStrength: 112
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114430750446081968
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5692,7 +5641,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114436105147554598
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5716,7 +5664,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114441922517205800
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5740,7 +5687,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114442012607751536
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5786,7 +5732,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114450240175328912
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5832,7 +5777,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114470126312758624
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5900,7 +5844,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114475144086299912
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5924,7 +5867,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114488457826822152
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5948,7 +5890,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114488726501424872
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5972,7 +5913,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114498801160444234
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6018,7 +5958,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114500147072732520
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6042,7 +5981,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 140
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114508738677546698
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6066,7 +6004,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114515346914114790
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6090,7 +6027,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114521840627899110
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6114,7 +6050,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114525498958859542
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6138,7 +6073,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 140
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114530839115275954
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6162,7 +6096,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114537492248483982
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6208,7 +6141,6 @@ MonoBehaviour:
     intensityMultiplier: 0.5
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114543698895247862
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6232,7 +6164,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114543953136391218
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6256,7 +6187,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114550011916867262
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6280,7 +6210,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114576918616650876
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6304,7 +6233,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114585902795796232
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6328,7 +6256,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114620496932987558
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6352,7 +6279,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114626158781457184
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6376,7 +6302,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114632085745786052
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6400,7 +6325,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114636888131350398
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6424,7 +6348,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114642263332258642
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6448,7 +6371,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114644760329316864
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6472,7 +6394,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114644904601303860
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6516,7 +6437,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 20
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114674991735506286
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6540,7 +6460,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 140
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114675849686105500
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6564,7 +6483,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114684780867934056
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6588,7 +6506,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114685453449238304
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6612,7 +6529,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114691801824158752
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6636,7 +6552,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114691826653571016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6660,7 +6575,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114707011314844182
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6684,7 +6598,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114719776455295932
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6752,7 +6665,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114735325004779552
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6776,7 +6688,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 10
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114737593000958806
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6800,7 +6711,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114745047289830856
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6846,7 +6756,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114767261182565948
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6870,7 +6779,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114771182169823242
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6894,7 +6802,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114781515408349590
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6918,7 +6825,6 @@ MonoBehaviour:
     intensityMultiplier: 0.5
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114795012195079038
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6942,7 +6848,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114800415774765908
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6988,7 +6893,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114819666082730168
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7012,7 +6916,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114824168836513162
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7036,7 +6939,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114832789912727548
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7060,7 +6962,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 50
     offsetStrength: 112
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114856457337145752
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7084,7 +6985,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 4
     offsetStrength: 500
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114866028013094736
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7108,7 +7008,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114869879923269984
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7132,7 +7031,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114873614235546376
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7156,7 +7054,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114874370397911578
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7180,7 +7077,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 50
     offsetStrength: 112
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114875539572933728
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7204,7 +7100,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 140
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114879029622195640
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7228,7 +7123,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114909014741500664
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7252,7 +7146,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114914545202231660
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7276,7 +7169,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 140
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114916161022793712
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7300,7 +7192,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 140
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114917335846216428
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7324,7 +7215,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114936618765332128
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7348,7 +7238,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114938379982694428
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7372,7 +7261,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 14
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114950924319921342
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7396,7 +7284,6 @@ MonoBehaviour:
     intensityMultiplier: 0.5
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114954509970554500
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7420,7 +7307,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114958926969827856
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7444,7 +7330,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114965379827262552
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7534,7 +7419,6 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114980316637862252
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7580,7 +7464,6 @@ MonoBehaviour:
     intensityMultiplier: 0.5
     speed: 1
     offsetStrength: 100
-    lightBeamPerformance: {fileID: 0}
 --- !u!114 &114996917799640154
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7604,4 +7487,3 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 50
     offsetStrength: 112
-    lightBeamPerformance: {fileID: 0}

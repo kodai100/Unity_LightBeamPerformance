@@ -164,10 +164,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1804831216}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (8)
@@ -216,6 +220,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!4 &150164546 stripped
@@ -261,13 +277,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 799693538}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
-    - target: {fileID: 1041853415, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: headOnlyIntensityMultiplier
-      value: 4
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
@@ -317,6 +333,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!114 &251454706 stripped
@@ -344,10 +372,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1804831216}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (2)
@@ -396,6 +428,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!1001 &311140605
@@ -405,13 +449,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1804831216}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
-    - target: {fileID: 1041853415, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: headOnlyIntensityMultiplier
-      value: 4
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
@@ -461,6 +505,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!114 &332209197 stripped
@@ -488,10 +544,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1804831216}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (9)
@@ -540,6 +600,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!1001 &398665813
@@ -549,10 +621,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1467569701}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (6)
@@ -600,6 +676,18 @@ PrefabInstance:
     - target: {fileID: 1288348959, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
@@ -628,10 +716,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985132848}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (6)
@@ -680,6 +772,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!1001 &454975443
@@ -689,10 +793,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985132848}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (9)
@@ -740,6 +848,18 @@ PrefabInstance:
     - target: {fileID: 1288348959, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
@@ -804,10 +924,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 799693538}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (4)
@@ -855,6 +979,18 @@ PrefabInstance:
     - target: {fileID: 1288348959, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
@@ -1101,10 +1237,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1467569701}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (4)
@@ -1153,6 +1293,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!4 &765237458 stripped
@@ -1180,10 +1332,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1804831216}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (5)
@@ -1231,6 +1387,18 @@ PrefabInstance:
     - target: {fileID: 1288348959, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
@@ -1307,10 +1475,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1467569701}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (7)
@@ -1358,6 +1530,18 @@ PrefabInstance:
     - target: {fileID: 1288348959, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
@@ -1530,10 +1714,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985132848}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (5)
@@ -1582,6 +1770,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!4 &1031048891 stripped
@@ -1609,10 +1809,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 799693538}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (2)
@@ -1661,6 +1865,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!1001 &1035756423
@@ -1670,10 +1886,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985132848}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (3)
@@ -1722,6 +1942,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!4 &1044268509 stripped
@@ -1749,10 +1981,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 799693538}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (5)
@@ -1801,6 +2037,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!1001 &1072126535
@@ -1810,10 +2058,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1467569701}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (3)
@@ -1862,6 +2114,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!1001 &1083706018
@@ -1871,10 +2135,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985132848}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (1)
@@ -1923,6 +2191,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!4 &1130973459 stripped
@@ -1950,10 +2230,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1467569701}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (5)
@@ -2002,6 +2286,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!1001 &1142472621
@@ -2011,10 +2307,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1804831216}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (10)
@@ -2063,6 +2363,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!4 &1224728295 stripped
@@ -2090,10 +2402,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1467569701}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (2)
@@ -2141,6 +2457,18 @@ PrefabInstance:
     - target: {fileID: 1288348959, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
@@ -2241,10 +2569,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1467569701}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (10)
@@ -2293,6 +2625,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!1001 &1412911543
@@ -2302,13 +2646,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1467569701}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
-    - target: {fileID: 1041853415, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: headOnlyIntensityMultiplier
-      value: 4
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
@@ -2358,6 +2702,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!4 &1413329768 stripped
@@ -2385,10 +2741,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 799693538}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (1)
@@ -2437,6 +2797,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!1001 &1447502648
@@ -2446,10 +2818,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985132848}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (4)
@@ -2497,6 +2873,18 @@ PrefabInstance:
     - target: {fileID: 1288348959, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
@@ -2591,10 +2979,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 799693538}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (10)
@@ -2643,6 +3035,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!1001 &1487934734
@@ -2652,10 +3056,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985132848}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (2)
@@ -2704,6 +3112,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!4 &1514639356 stripped
@@ -2749,10 +3169,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 799693538}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (6)
@@ -2801,6 +3225,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!4 &1568242731 stripped
@@ -2828,10 +3264,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985132848}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (10)
@@ -2880,6 +3320,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!1001 &1611200566
@@ -2889,10 +3341,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1467569701}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (1)
@@ -2940,6 +3396,18 @@ PrefabInstance:
     - target: {fileID: 1288348959, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
@@ -2968,10 +3436,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1804831216}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (3)
@@ -3020,6 +3492,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!1001 &1677267097
@@ -3029,10 +3513,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1804831216}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (1)
@@ -3081,6 +3569,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!1001 &1681369574
@@ -3090,10 +3590,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 799693538}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (3)
@@ -3142,6 +3646,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!4 &1683071089 stripped
@@ -3169,13 +3685,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985132848}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
-    - target: {fileID: 1041853415, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: headOnlyIntensityMultiplier
-      value: 4
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
@@ -3282,10 +3798,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1467569701}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (8)
@@ -3334,6 +3854,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!1001 &1735502239
@@ -3343,10 +3875,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985132848}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (7)
@@ -3395,6 +3931,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!1001 &1744855735
@@ -3404,10 +3952,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 799693538}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (8)
@@ -3455,6 +4007,18 @@ PrefabInstance:
     - target: {fileID: 1288348959, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
@@ -3501,10 +4065,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1985132848}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (8)
@@ -3552,6 +4120,18 @@ PrefabInstance:
     - target: {fileID: 1288348959, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
@@ -3628,10 +4208,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1804831216}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (7)
@@ -3680,6 +4264,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!4 &1893023922 stripped
@@ -3725,10 +4321,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1804831216}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (4)
@@ -3777,6 +4377,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
 --- !u!4 &1953752469 stripped
@@ -3822,10 +4434,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1804831216}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (6)
@@ -3873,6 +4489,18 @@ PrefabInstance:
     - target: {fileID: 1288348959, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
@@ -3985,10 +4613,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1467569701}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (9)
@@ -4036,6 +4668,18 @@ PrefabInstance:
     - target: {fileID: 1288348959, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
@@ -4046,10 +4690,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 799693538}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (9)
@@ -4097,6 +4745,18 @@ PrefabInstance:
     - target: {fileID: 1288348959, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
@@ -4143,10 +4803,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 799693538}
     m_Modifications:
-    - target: {fileID: 87726148, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
-      propertyPath: shader
-      value: 
-      objectReference: {fileID: 4800000, guid: 3ed70b2040368ab468c9707191e86d9d, type: 3}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 481837955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
     - target: {fileID: 1288348955, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_Name
       value: MovingLight (7)
@@ -4194,6 +4858,18 @@ PrefabInstance:
     - target: {fileID: 1288348959, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478134858, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d8f3d6e26738649a7e9875249fdc02, type: 3}

@@ -10,20 +10,14 @@ namespace ProjectBlue.LightBeamPerformance {
 
         public List<MovingLight> lights = new List<MovingLight>();
 
-        public Transform target; 
-    
-    // Start is called before the first frame update
-        void Start()
-        {
+        public Transform target;
 
-        }
 
-        // Update is called once per frame
         void Update()
         {
 
             lights.ForEach(light =>{
-                light.LookAt(target);
+                light.LookAt(target.position);
             });
 
             

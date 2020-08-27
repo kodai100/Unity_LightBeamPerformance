@@ -11,51 +11,32 @@ namespace ProjectBlue.LightBeamPerformance
     public class LightPerformanceBehaviour : PlayableBehaviour
     {
         [SerializeField]
-        AddressType addressType = AddressType.Group;
+        public AddressType addressType = AddressType.Group;
 
         [SerializeField]
-        ColorAnimationMode color = ColorAnimationMode.SingleColor;
+        public ColorAnimationMode color = ColorAnimationMode.SingleColor;
 
         [Range(0f, 1f)]
         public float saturation = 1f;
 
         [SerializeField]
-        DimmerAnimationMode dimmer = DimmerAnimationMode.On;
+        public DimmerAnimationMode dimmer = DimmerAnimationMode.On;
         [SerializeField]
-        MotionAnimationMode motion = MotionAnimationMode.Default;
+        public MotionAnimationMode motion = MotionAnimationMode.Default;
 
         [SerializeField]
-        float bpm = 120;
+        public float bpm = 120;
 
         [SerializeField]
-        Color lightColor = Color.white;
+        public Color lightColor = Color.white;
         [SerializeField]
-        float intensityMultiplier = 1f;
+        public float intensityMultiplier = 1f;
         
         [SerializeField]
-        float speed = 1f;
+        public float speed = 1f;
         [SerializeField]
-        float offsetStrength = 1f;
+        public float offsetStrength = 1f;
 
-        [HideInInspector] public LightBeamPerformance lightBeamPerformance;
-
-        public override void OnBehaviourPlay(Playable playable, FrameData info)
-        {
-            if (!lightBeamPerformance) return;
-
-            lightBeamPerformance.AddressType = addressType;
-
-            lightBeamPerformance.ChangeState(color, dimmer, motion);
-
-            lightBeamPerformance.ChangeBpm(bpm);
-
-            lightBeamPerformance.LightColor = lightColor;
-            lightBeamPerformance.Saturation = saturation;
-            lightBeamPerformance.IntensityMultiplier = intensityMultiplier;
-
-            lightBeamPerformance.Speed = speed;
-            lightBeamPerformance.OffsetStrength = offsetStrength;
-        }
     }
 
 }

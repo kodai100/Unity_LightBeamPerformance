@@ -6,6 +6,7 @@ namespace ProjectBlue.LightBeamPerformance
     public class Tilt : MonoBehaviour
     {
 
+        [SerializeField]
         Quaternion defaultRotation;
 
         public Range movableRange = new Range(-70, 70);
@@ -15,19 +16,39 @@ namespace ProjectBlue.LightBeamPerformance
 
         private void Awake()
         {
-            defaultRotation = transform.localRotation;
             lowPassFilter = new QuaternionLowPassFilter(lowPassWeight, transform.localRotation);
+        }
+
+        public void RegisterDefaultRotation()
+        {
+            defaultRotation = transform.localRotation;
         }
 
         public void SetDefault()
         {
+
+            if (Application.isPlaying)
+            {
+                transform.localRotation = lowPassFilter.Append(defaultRotation);
+            }
+            else
+            {
+                transform.localRotation = defaultRotation;
+            }
             
-            transform.localRotation = lowPassFilter.Append(defaultRotation);
         }
 
         public void SetRotation(float degree)
         {
-            transform.localRotation = lowPassFilter.Append(Quaternion.Euler(degree, 0, 0));
+            if (Application.isPlaying)
+            {
+                transform.localRotation = lowPassFilter.Append(Quaternion.Euler(degree, 0, 0));
+            }
+            else
+            {
+                transform.localRotation = Quaternion.Euler(degree, 0, 0);
+            }
+            
 
         }
 

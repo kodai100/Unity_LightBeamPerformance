@@ -16,30 +16,38 @@ namespace ProjectBlue.LightBeamPerformance
 
         public Color color = Color.red;
 
-        MeshRenderer renderer;
+        [SerializeField]
+        MeshRenderer lightLensMesh;
+
         Material mat;
 
-        
-        void Start()
-        {
-            renderer = GetComponent<MeshRenderer>();
-
-
-            mat = new Material(Shader.Find("Standard"));
-            renderer.material = mat;
-
-            mat.EnableKeyword("_EMISSION");
-        }
-        
-        void Update()
+        public void Process()
         {
 
-            beam.color = color;
-            beam.intensity = intensity;
+            if (lightLensMesh)
+            {
+                if (!mat)
+                {
+                    mat = new Material(Shader.Find("Standard"));
+                    GetComponent<Renderer>().material = mat;
 
-            mat.SetColor("_EmissionColor", color * intensity * headOnlyIntensityMultiplier);
+                    mat.EnableKeyword("_EMISSION");
+                }
+                else
+                {
+                    mat.SetColor("_EmissionColor", color * intensity * headOnlyIntensityMultiplier);
+                }
+            }
+
+            if (beam)
+            {
+                beam.color = color;
+                beam.intensity = intensity;
+
+                beam.Process();
+            }
+            
         }
-
 
 
     }

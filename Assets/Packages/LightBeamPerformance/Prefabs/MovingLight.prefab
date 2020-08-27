@@ -93,6 +93,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfe4165585eceeb459780cca7cc8887e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   movableRange:
     min: -70
     max: 70
@@ -194,6 +195,7 @@ MonoBehaviour:
   intensity: 1
   headOnlyIntensityMultiplier: 1
   color: {r: 1, g: 0, b: 0, a: 1}
+  lightLensMesh: {fileID: 1041853413}
 --- !u!1 &1288348955
 GameObject:
   m_ObjectHideFlags: 0
@@ -288,13 +290,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   head: {fileID: 1041853415}
-  pan: {fileID: 1478134860}
-  tilt: {fileID: 481837954}
   group: 0
   address: 0
-  addressOffset: 0
   globalAddress: 0
-  globalAddressOffset: 0
 --- !u!1 &1478134857
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,6 +386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1207eb4f2fb641408afd7c64d9f032f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultRotation: {x: 0, y: 0, z: 0, w: 1}
   movableRange:
     min: -180
     max: 180
@@ -486,3 +485,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: {r: 0.995283, g: 0.9967091, b: 1, a: 1}
   intensity: 1
+  intensityMultiplier: 0.5
+  beamGeometry: {fileID: 1807526251794051928}

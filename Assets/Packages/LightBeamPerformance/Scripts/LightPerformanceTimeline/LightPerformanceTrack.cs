@@ -15,8 +15,7 @@ namespace ProjectBlue.LightBeamPerformance
         {
 
             var playable = ScriptPlayable<LightPerformanceMixerBehaviour>.Create(graph, inputCount);
-            var trackBinding = go.GetComponent<PlayableDirector>().GetGenericBinding(this) as LightBeamPerformance;
-            playable.GetBehaviour().trackBinding = trackBinding;
+            playable.GetBehaviour().Director = go.GetComponent<PlayableDirector>();
 
             return playable;
         }
