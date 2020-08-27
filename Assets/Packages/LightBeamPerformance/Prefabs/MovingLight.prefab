@@ -290,6 +290,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   head: {fileID: 1041853415}
+  pan: {fileID: 1478134860}
+  tilt: {fileID: 481837954}
   group: 0
   address: 0
   globalAddress: 0

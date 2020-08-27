@@ -12,7 +12,10 @@ namespace ProjectBlue.LightBeamPerformance
     {
         [SerializeField] LightHead head;
 
+        [SerializeField]
         Pan pan;
+
+        [SerializeField]
         Tilt tilt;
 
         public int group;
