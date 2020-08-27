@@ -19,6 +19,8 @@ namespace ProjectBlue.LightBeamPerformance
             if(GUILayout.Button("Register Default Rotation"))
             {
                 script.RegisterDefaultRotation();
+
+                EditorUtility.SetDirty(script);
             }
 
         }

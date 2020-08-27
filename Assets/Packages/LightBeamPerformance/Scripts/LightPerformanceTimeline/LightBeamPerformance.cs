@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+
 namespace ProjectBlue.LightBeamPerformance
 {
 
@@ -68,6 +72,7 @@ namespace ProjectBlue.LightBeamPerformance
 
                     lightGroup[u].lights[a].globalAddress = lightNum;
                     lightNum++;
+
                 }
             }
 
@@ -77,6 +82,10 @@ namespace ProjectBlue.LightBeamPerformance
                 for (int a = 0; a < lightGroup[u].lights.Count; a++)
                 {
                     lightGroup[u].lights[a].GlobalAddressOffset = (float)lightGroup[u].lights[a].globalAddress / lightNum;
+
+#if UNITY_EDITOR
+                    EditorUtility.SetDirty(lightGroup[u].lights[a]);
+#endif
                 }
             }
 

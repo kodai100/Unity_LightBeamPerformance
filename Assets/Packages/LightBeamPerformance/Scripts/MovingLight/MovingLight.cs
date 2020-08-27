@@ -24,8 +24,8 @@ namespace ProjectBlue.LightBeamPerformance
         public int globalAddress;
 
         // own 0 - 1 address offset value in light group
-        public float LocalAddressOffset { get; set; }
-        public float GlobalAddressOffset { get; set; }
+        public float LocalAddressOffset;
+        public float GlobalAddressOffset;
 
         public float GetAddressOffset(AddressType addressType)
         {

@@ -295,6 +295,8 @@ MonoBehaviour:
   group: 0
   address: 0
   globalAddress: 0
+  LocalAddressOffset: 0
+  GlobalAddressOffset: 0
 --- !u!1 &1478134857
 GameObject:
   m_ObjectHideFlags: 0
