@@ -3,19 +3,15 @@
 namespace ProjectBlue.LightBeamPerformance
 {
 
-    public class NoribenLightBeam : MonoBehaviour
+    public class NoribenLightBeam : Beam
     {
-
-        public Color color;
-        public float intensity = 1f;
-        public float intensityMultiplier = 0.5f;
 
         [SerializeField]
         MeshRenderer beamGeometry;
 
         private MaterialPropertyBlock materialPropertyBlock;
 
-        public void Process()
+        protected override void ProcessInternal()
         {
 
             if (beamGeometry)

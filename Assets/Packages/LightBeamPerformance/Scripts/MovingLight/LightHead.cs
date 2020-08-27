@@ -8,7 +8,7 @@ namespace ProjectBlue.LightBeamPerformance
     public class LightHead : MonoBehaviour
     {
 
-        public NoribenLightBeam beam;
+        public Beam beam;
 
         public float intensity = 1f;
 
