@@ -2,7 +2,17 @@
 
 This package can create light beam performance with Unity's timeline functionality.
 
-![thumbnail](https://github.com/ProjectBLUE-000/Unity_LightBeamPerformance/blob/master/Assets/Packages/LightBeamPerformance/Textures/thumbnail.gif)
+![thumbnail](https://github.com/ProjectBLUE-000/Unity_LightBeamPerformance/blob/master/Assets/LightBeamPerformance/Textures/thumbnail.gif)
+
+# Install With PackageManager
+
+```
+{
+  "dependencies": {
+    "jp.pjblue.light-beam-performance": "https://github.com/ProjectBLUE-000/Unity_LightBeamPerformance.git?path=/Assets"
+  }
+}
+```
 
 # Usecase
 
