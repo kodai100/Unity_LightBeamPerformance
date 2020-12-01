@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,28 +17,49 @@ namespace ProjectBlue.LightBeamPerformance
 
         public Color color = Color.red;
 
-        [SerializeField]
-        MeshRenderer lightLensMesh;
+        [SerializeField] private Renderer renderer = null;
 
-        Material mat;
+        private Material mat = null;
 
+        private Material CheckMaterial()
+        {
+            
+            if (!mat)
+            {
+                mat = CheckMaterial();
+                renderer.material = mat;
+
+                return new Material(Shader.Find("Standard"));
+            }
+            else
+            {
+                return mat;
+            }
+            
+        }
+
+        private Renderer CheckRenderer()
+        {
+            if (!renderer)
+            {
+                renderer = GetComponent<Renderer>();
+                return renderer;
+            }
+            else
+            {
+                return renderer;
+            }
+        }
+        
         public void Process()
         {
 
-            if (lightLensMesh)
-            {
-                if (!mat)
-                {
-                    mat = new Material(Shader.Find("Standard"));
-                    GetComponent<Renderer>().material = mat;
+            CheckRenderer();
+            CheckMaterial();
 
-                    mat.EnableKeyword("_EMISSION");
-                }
-                else
-                {
-                    mat.SetColor("_EmissionColor", color * intensity * headOnlyIntensityMultiplier);
-                }
-            }
+            mat.EnableKeyword("_EMISSION");
+            mat.SetColor("_Color", color);
+            mat.SetColor("_EmissionColor", color * intensity * headOnlyIntensityMultiplier);
 
             if (beam)
             {
@@ -49,6 +71,9 @@ namespace ProjectBlue.LightBeamPerformance
             
         }
 
-
+        private void OnDestroy()
+        {
+            GameObject.Destroy(mat);
+        }
     }
 }
