@@ -21,41 +21,30 @@ namespace ProjectBlue.LightBeamPerformance
 
         private Material mat = null;
 
-        private Material CheckMaterial()
+        private void CheckMaterial()
         {
             
             if (!mat)
             {
-                mat = CheckMaterial();
+                mat = new Material(Shader.Find("Standard"));
                 renderer.material = mat;
-
-                return new Material(Shader.Find("Standard"));
-            }
-            else
-            {
-                return mat;
             }
             
         }
 
-        private Renderer CheckRenderer()
+        private void CheckRenderer()
         {
             if (!renderer)
             {
                 renderer = GetComponent<Renderer>();
-                return renderer;
-            }
-            else
-            {
-                return renderer;
             }
         }
         
         public void Process()
         {
-
             CheckRenderer();
             CheckMaterial();
+
 
             mat.EnableKeyword("_EMISSION");
             mat.SetColor("_Color", color);
