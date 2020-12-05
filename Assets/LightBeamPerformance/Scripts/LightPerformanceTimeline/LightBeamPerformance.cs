@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 #if UNITY_EDITOR
@@ -48,22 +50,29 @@ namespace ProjectBlue.LightBeamPerformance
         [HideInInspector] public float IntensityMultiplier = 1f;
         [SerializeField] List<LightGroup> lightGroup = new List<LightGroup>();
 
+        private bool initialized = false;
+
         float beat;
 
         BPM bpm = new BPM(120);
 
-        void Start()
+        private void Start()
         {
             Initialize();
+        }
+
+        private void OnValidate()
+        {
+            initialized = false;
         }
 
         public void Initialize()
         {
             // Count all of lights and set address to each light
-            int lightNum = 0; ;
-            for (int u = 0; u < lightGroup.Count; u++)
+            var lightNum = 0; ;
+            for (var u = 0; u < lightGroup.Count; u++)
             {
-                for (int a = 0; a < lightGroup[u].lights.Count; a++)
+                for (var a = 0; a < lightGroup[u].lights.Count; a++)
                 {
                     // local address
                     lightGroup[u].lights[a].group = u;
@@ -72,27 +81,27 @@ namespace ProjectBlue.LightBeamPerformance
 
                     lightGroup[u].lights[a].globalAddress = lightNum;
                     lightNum++;
-
                 }
             }
 
             // Set global address offset
-            for (int u = 0; u < lightGroup.Count; u++)
+            foreach (var movingLight in lightGroup.SelectMany(group => group.lights))
             {
-                for (int a = 0; a < lightGroup[u].lights.Count; a++)
-                {
-                    lightGroup[u].lights[a].GlobalAddressOffset = (float)lightGroup[u].lights[a].globalAddress / lightNum;
+                movingLight.GlobalAddressOffset = (float)movingLight.globalAddress / lightNum;
 
 #if UNITY_EDITOR
-                    EditorUtility.SetDirty(lightGroup[u].lights[a]);
+                EditorUtility.SetDirty(movingLight);
 #endif
-                }
             }
 
+            Debug.Log("Light Beam Initialized");
+            initialized = true;
         }
 
         public void ProcessFrame(double masterTime, double clipTime)
         {
+            if (!initialized) Initialize();
+            
             beat = bpm.SecondsToBeat((float)clipTime);
 
             lightGroup.ForEach(group => {
