@@ -44,8 +44,8 @@ namespace ProjectBlue.LightBeamPerformance
         public float Speed = 1f;            // includes "wave speed"
         public float OffsetStrength = 5f;   // includes "frequency"
 
-        public Range panRange = new Range(-90, 90);
-        public Range tiltRange = new Range(-10, 10);
+        public Range panRange = new Range(-45, 45);
+        public Range tiltRange = new Range(0, 60);
         
         [HideInInspector] public float IntensityMultiplier = 1f;
         [SerializeField] List<LightGroup> lightGroup = new List<LightGroup>();

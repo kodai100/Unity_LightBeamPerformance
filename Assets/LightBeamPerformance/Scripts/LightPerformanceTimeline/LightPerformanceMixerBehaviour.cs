@@ -20,23 +20,18 @@ namespace ProjectBlue.LightBeamPerformance
             if (!trackBinding)
                 return;
 
+            var clipTime = Director.time;
+            
+            var col = Color.black;
 
-            int inputCount = playable.GetInputCount();
-
-            double clipTime = Director.time;
-
-            for (int i = 0; i < inputCount; i++)
+            for (var i = 0; i < playable.GetInputCount(); i++)
             {
-                float inputWeight = playable.GetInputWeight(i);
+                var inputWeight = playable.GetInputWeight(i);
+                var inputPlayable = (ScriptPlayable<LightPerformanceBehaviour>)playable.GetInput(i);
+                var inputBehaviour = inputPlayable.GetBehaviour();
 
-                // ScriptPlayable<MeshRendererActivationBehaviour> inputPlayable = (ScriptPlayable<MeshRendererActivationBehaviour>)playable.GetInput(i);
-                // MeshRendererActivationBehaviour input = inputPlayable.GetBehaviour ();
-
-                if (playable.GetInputWeight(i) > 0)
+                if (inputWeight > 0.5f)
                 {
-
-                    ScriptPlayable<LightPerformanceBehaviour> inputPlayable = (ScriptPlayable<LightPerformanceBehaviour>)playable.GetInput(i);
-                    var inputBehaviour = inputPlayable.GetBehaviour();
 
                     trackBinding.AddressType = inputBehaviour.addressType;
 
@@ -44,7 +39,9 @@ namespace ProjectBlue.LightBeamPerformance
 
                     trackBinding.ChangeBpm(inputBehaviour.bpm);
 
-                    trackBinding.LightColor = inputBehaviour.lightColor;
+                    trackBinding.panRange = new Range(inputBehaviour.panRange.min, inputBehaviour.panRange.max);
+                    trackBinding.tiltRange = new Range(inputBehaviour.tiltRange.min, inputBehaviour.tiltRange.max);
+                    
                     trackBinding.Saturation = inputBehaviour.saturation;
                     trackBinding.IntensityMultiplier = inputBehaviour.intensityMultiplier;
 
@@ -53,10 +50,12 @@ namespace ProjectBlue.LightBeamPerformance
 
                     var clip = Clips[i];
                     clipTime = Director.time - clip.start;
-
-                    break;
                 }
+
+                col = Color.Lerp(col, inputBehaviour.lightColor, inputWeight);
             }
+            
+            trackBinding.LightColor = col;
 
             trackBinding.ProcessFrame(Director.time, clipTime);
 

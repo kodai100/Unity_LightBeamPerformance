@@ -1,8 +1,6 @@
 using System;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
-using UnityEngine.Timeline;
 
 namespace ProjectBlue.LightBeamPerformance
 {
@@ -36,6 +34,9 @@ namespace ProjectBlue.LightBeamPerformance
         public float speed = 1f;
         [SerializeField]
         public float offsetStrength = 1f;
+
+        [SerializeField] public FloatRange panRange = new FloatRange(-80, 80,-180, 180);
+        [SerializeField] public FloatRange tiltRange = new FloatRange(-70, -10, -90, 90);
 
     }
 
