@@ -23,6 +23,100 @@ MonoBehaviour:
   m_Clips: []
   m_Markers:
     m_Objects: []
+--- !u!114 &-6930523112792882934
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fc6f5187a81dc47999eefade6f0935, type: 3}
+  m_Name: Track Group
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 8627346949113030703}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &-5142414684393309452
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4a7f22dbacbc5d4daddf789b1d692e2, type: 3}
+  m_Name: LaserPerformanceClip
+  m_EditorClassIdentifier: 
+  data:
+    color: 0
+    dimmer: 0
+    motion: 3
+    bpm: 120
+    laserColor: {r: 0, g: 0.43586493, b: 1, a: 1}
+    intensityMultiplier: 1
+    speed: 1
+    offsetStrength: 1
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
+--- !u!114 &-1673591369371889859
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4a7f22dbacbc5d4daddf789b1d692e2, type: 3}
+  m_Name: LaserPerformanceClip(Clone)
+  m_EditorClassIdentifier: 
+  data:
+    color: 0
+    dimmer: 0
+    motion: 3
+    bpm: 120
+    laserColor: {r: 0, g: 0.43586493, b: 1, a: 1}
+    intensityMultiplier: 1
+    speed: 1
+    offsetStrength: 1
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38,6 +132,7 @@ MonoBehaviour:
   m_Version: 0
   m_Tracks:
   - {fileID: 114098644318481136}
+  - {fileID: -6930523112792882934}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 30
@@ -64,7 +159,20 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114028583336181954
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -77,14 +185,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3279d9b1a96ecb14e9cff5035a5403ec, type: 3}
   m_Name: Laser Performance Track
   m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
   m_Locked: 0
   m_Muted: 0
   m_CustomPlayableFullTypename: 
-  m_AnimClip: {fileID: 0}
-  m_Parent: {fileID: 114487255414695684}
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 0}
   m_Children: []
   m_Clips:
-  - m_Start: 7.133333333333334
+  - m_Version: 1
+    m_Start: 7.133333333333334
     m_ClipIn: 0
     m_Asset: {fileID: 114965379827262552}
     m_Duration: 6.896085568020741
@@ -152,8 +263,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 14.029418901354479
+  - m_Version: 1
+    m_Start: 14.029418901354479
     m_ClipIn: 0
     m_Asset: {fileID: 114470126312758624}
     m_Duration: 3.2327285930510303
@@ -221,8 +332,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 17.262147494405475
+  - m_Version: 1
+    m_Start: 17.262147494405475
     m_ClipIn: 0
     m_Asset: {fileID: 114430750446081968}
     m_Duration: 1.7115894993767444
@@ -290,8 +401,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 18.97373699378248
+  - m_Version: 1
+    m_Start: 18.97373699378248
     m_ClipIn: 0
     m_Asset: {fileID: 114242806895504304}
     m_Duration: 3.413795671301326
@@ -359,8 +470,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 22.387532665083477
+  - m_Version: 1
+    m_Start: 22.387532665083477
     m_ClipIn: 0
     m_Asset: {fileID: 114134955367809666}
     m_Duration: 20.43302219901267
@@ -428,8 +539,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 0
+  - m_Version: 1
+    m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 114965578996323744}
     m_Duration: 7.133333333333334
@@ -497,8 +608,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 42.820554864096145
+  - m_Version: 1
+    m_Start: 42.820554864096145
     m_ClipIn: 0
     m_Asset: {fileID: 114800415774765908}
     m_Duration: 2.9833333333333343
@@ -566,8 +677,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 45.80388819742948
+  - m_Version: 1
+    m_Start: 45.80388819742948
     m_ClipIn: 0
     m_Asset: {fileID: 114980316637862252}
     m_Duration: 12.08072807509452
@@ -635,8 +746,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 57.884616272524
+  - m_Version: 1
+    m_Start: 57.884616272524
     m_ClipIn: 0
     m_Asset: {fileID: 114719776455295932}
     m_Duration: 2.5268618579333193
@@ -704,8 +815,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 60.41147813045732
+  - m_Version: 1
+    m_Start: 60.41147813045732
     m_ClipIn: 0
     m_Asset: {fileID: 114006808039313366}
     m_Duration: 0.45907673363881685
@@ -773,8 +884,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 60.87055486409615
+  - m_Version: 1
+    m_Start: 60.87055486409615
     m_ClipIn: 0
     m_Asset: {fileID: 114450240175328912}
     m_Duration: 2.7833771994337226
@@ -842,8 +953,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 63.65393206352987
+  - m_Version: 1
+    m_Start: 63.65393206352987
     m_ClipIn: 0
     m_Asset: {fileID: 114470602587301806}
     m_Duration: 12.179383633223644
@@ -911,8 +1022,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 86.23230461925274
+  - m_Version: 1
+    m_Start: 86.23230461925274
     m_ClipIn: 0
     m_Asset: {fileID: 114240302460714864}
     m_Duration: 3.6308259991928935
@@ -980,8 +1091,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 89.86313061844564
+  - m_Version: 1
+    m_Start: 89.86313061844564
     m_ClipIn: 0
     m_Asset: {fileID: 114414928491192862}
     m_Duration: 1.0607853424424292
@@ -1049,8 +1160,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 116.89313906251142
+  - m_Version: 1
+    m_Start: 116.89313906251142
     m_ClipIn: 0
     m_Asset: {fileID: 114311077213148312}
     m_Duration: 1.0607853424424292
@@ -1118,8 +1229,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 90.92391596088807
+  - m_Version: 1
+    m_Start: 90.92391596088807
     m_ClipIn: 0
     m_Asset: {fileID: 114498801160444234}
     m_Duration: 9.029731399379685
@@ -1187,8 +1298,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 99.95364736026774
+  - m_Version: 1
+    m_Start: 99.95364736026774
     m_ClipIn: 0
     m_Asset: {fileID: 114728352296904418}
     m_Duration: 9.029731399379685
@@ -1256,8 +1367,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 109.02816136094432
+  - m_Version: 1
+    m_Start: 109.02816136094432
     m_ClipIn: 0
     m_Asset: {fileID: 114147928848173128}
     m_Duration: 7.864977701567099
@@ -1325,8 +1436,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 117.9904189622651
+  - m_Version: 1
+    m_Start: 117.9904189622651
     m_ClipIn: 0
     m_Asset: {fileID: 114092843206333916}
     m_Duration: 8.994432996213362
@@ -1394,8 +1505,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 126.98485195847849
+  - m_Version: 1
+    m_Start: 126.98485195847849
     m_ClipIn: 0
     m_Asset: {fileID: 114969274657713798}
     m_Duration: 4.401920889504012
@@ -1463,8 +1574,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 131.38677284798246
+  - m_Version: 1
+    m_Start: 131.38677284798246
     m_ClipIn: 0
     m_Asset: {fileID: 114217772382692084}
     m_Duration: 46.43378405061888
@@ -1532,8 +1643,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 75.83331569675356
+  - m_Version: 1
+    m_Start: 75.83331569675356
     m_ClipIn: 0
     m_Asset: {fileID: 114745047289830856}
     m_Duration: 10.398988922499186
@@ -1601,8 +1712,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 177.82055689860135
+  - m_Version: 1
+    m_Start: 177.82055689860135
     m_ClipIn: 0
     m_Asset: {fileID: 114442012607751536}
     m_Duration: 24.865062937636964
@@ -1670,8 +1781,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 202.68561983623832
+  - m_Version: 1
+    m_Start: 202.68561983623832
     m_ClipIn: 0
     m_Asset: {fileID: 114537492248483982}
     m_Duration: 14.084937062363025
@@ -1739,8 +1850,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 216.77055689860134
+  - m_Version: 1
+    m_Start: 216.77055689860134
     m_ClipIn: 0
     m_Asset: {fileID: 114366123010624958}
     m_Duration: 3.6148978948591264
@@ -1808,8 +1919,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  - m_Start: 220.38545479346047
+  - m_Version: 1
+    m_Start: 220.38545479346047
     m_ClipIn: 0
     m_Asset: {fileID: 114280534189956410}
     m_Duration: 24.235100070635667
@@ -1877,8 +1988,8 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: LaserPerformanceClip
-    m_Version: 1
-  m_Version: 2
+  m_Markers:
+    m_Objects: []
 --- !u!114 &114034897916236812
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2085,7 +2196,20 @@ MonoBehaviour:
     intensityMultiplier: 3
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114094887565625040
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2353,7 +2477,20 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114139001870878474
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2449,7 +2586,20 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114166573157094352
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2878,7 +3028,20 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114218027688373280
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3048,7 +3211,20 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114242806895504304
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3070,7 +3246,20 @@ MonoBehaviour:
     intensityMultiplier: 1.5
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114246763107668990
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3314,7 +3503,20 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114289172235944340
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3410,7 +3612,20 @@ MonoBehaviour:
     intensityMultiplier: 3
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114311384263574284
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3617,7 +3832,20 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114381177852519166
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3782,25 +4010,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -5766,7 +5976,20 @@ MonoBehaviour:
     intensityMultiplier: 3
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114418267322664534
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5899,7 +6122,20 @@ MonoBehaviour:
     intensityMultiplier: 1.5
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114434421783220192
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6032,7 +6268,20 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114444486840608944
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6091,7 +6340,20 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114468434232884562
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6150,7 +6412,20 @@ MonoBehaviour:
     intensityMultiplier: 1.5
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114470602587301806
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6172,7 +6447,20 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114474010924765814
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6342,7 +6630,20 @@ MonoBehaviour:
     intensityMultiplier: 3
     speed: 0.5
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114499701809127406
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6623,7 +6924,20 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114538239391853852
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7405,7 +7719,20 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114728352296904418
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7427,7 +7754,20 @@ MonoBehaviour:
     intensityMultiplier: 3
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114733091828240166
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7560,7 +7900,20 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114751841261071326
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7767,7 +8120,20 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114817990268405216
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8529,7 +8895,20 @@ MonoBehaviour:
     intensityMultiplier: 1.5
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114965578996323744
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8551,7 +8930,20 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114969274657713798
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8573,7 +8965,20 @@ MonoBehaviour:
     intensityMultiplier: 3
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114976195879337468
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8632,7 +9037,20 @@ MonoBehaviour:
     intensityMultiplier: 1
     speed: 1
     offsetStrength: 1
-    laserPerformance: {fileID: 0}
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
 --- !u!114 &114996533586524782
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8707,3 +9125,268 @@ MonoBehaviour:
       maxLimit: 90
       clampMin: 1
       clampMax: 1
+--- !u!114 &145104730609296397
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4a7f22dbacbc5d4daddf789b1d692e2, type: 3}
+  m_Name: LaserPerformanceClip
+  m_EditorClassIdentifier: 
+  data:
+    color: 0
+    dimmer: 0
+    motion: 0
+    bpm: 120
+    laserColor: {r: 1, g: 0, b: 0, a: 1}
+    intensityMultiplier: 1
+    speed: 1
+    offsetStrength: 1
+    panRange:
+      min: -90
+      max: 90
+      minLimit: -180
+      maxLimit: 180
+      clampMin: 1
+      clampMax: 1
+    tiltRange:
+      min: -20
+      max: 20
+      minLimit: -90
+      maxLimit: 90
+      clampMin: 1
+      clampMax: 1
+--- !u!114 &8627346949113030703
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3279d9b1a96ecb14e9cff5035a5403ec, type: 3}
+  m_Name: Laser Performance Track
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: -6930523112792882934}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 145104730609296397}
+    m_Duration: 11.966666666666667
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8627346949113030703}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: 4.3
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: LaserPerformanceClip
+  - m_Version: 1
+    m_Start: 7.666666666666667
+    m_ClipIn: 0
+    m_Asset: {fileID: -5142414684393309452}
+    m_Duration: 10.399999999999999
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8627346949113030703}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 4.3
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: LaserPerformanceClip
+  - m_Version: 1
+    m_Start: 18.066666666666666
+    m_ClipIn: 0
+    m_Asset: {fileID: -1673591369371889859}
+    m_Duration: 10.399999999999999
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8627346949113030703}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: LaserPerformanceClip
+  m_Markers:
+    m_Objects: []
