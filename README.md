@@ -1,3 +1,5 @@
+![total](https://img.shields.io/github/downloads/ProjectBLUE-000/Unity_LightBeamPerformance/total)
+
 # Light Beam Performance
 
 This package can create light beam performance with Unity's timeline functionality.
