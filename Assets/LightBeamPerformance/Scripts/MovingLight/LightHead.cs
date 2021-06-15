@@ -5,10 +5,8 @@ using UnityEngine;
 
 namespace ProjectBlue.LightBeamPerformance
 {
-
     public class LightHead : MonoBehaviour
     {
-
         public Beam beam;
 
         public float intensity = 1f;
@@ -18,18 +16,19 @@ namespace ProjectBlue.LightBeamPerformance
         public Color color = Color.red;
 
         [SerializeField] private Renderer renderer = null;
+        [SerializeField] private Shader litShader;
 
         private Material mat = null;
 
         private void CheckMaterial()
         {
-            
             if (!mat)
             {
-                mat = new Material(Shader.Find("Standard"));
+                mat = new Material(litShader);
+                mat.color = Color.black;
+
                 renderer.material = mat;
             }
-            
         }
 
         private void CheckRenderer()
@@ -39,7 +38,7 @@ namespace ProjectBlue.LightBeamPerformance
                 renderer = GetComponent<Renderer>();
             }
         }
-        
+
         public void Process()
         {
             CheckRenderer();
@@ -57,7 +56,6 @@ namespace ProjectBlue.LightBeamPerformance
 
                 beam.Process();
             }
-            
         }
 
         private void OnDestroy()
