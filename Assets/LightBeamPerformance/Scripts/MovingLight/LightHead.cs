@@ -20,6 +20,17 @@ namespace ProjectBlue.LightBeamPerformance
 
         private Material mat = null;
 
+        [ContextMenu("Re generate material")]
+        private void ReGenerateMaterial()
+        {
+            var material = new Material(litShader);
+            material.color = Color.black;
+
+            renderer.material = material;
+            DestroyImmediate(mat);
+            mat = material;
+        }
+
         private void CheckMaterial()
         {
             if (!mat)
