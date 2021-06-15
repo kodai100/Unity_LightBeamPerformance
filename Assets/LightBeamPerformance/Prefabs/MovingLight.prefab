@@ -100,7 +100,7 @@ MonoBehaviour:
   movableRange:
     min: -70
     max: 70
-  lowPassWeight: 0.05
+  lowPassWeight: 0.01
 --- !u!1 &1041853411
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,7 +407,7 @@ MonoBehaviour:
   movableRange:
     min: -180
     max: 180
-  lowPassWeight: 0.05
+  lowPassWeight: 0.01
 --- !u!1 &1819593752657241550
 GameObject:
   m_ObjectHideFlags: 0
