@@ -3,33 +3,47 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-
 #if UNITY_EDITOR
 using UnityEditor;
+
 #endif
 
 namespace ProjectBlue.LightBeamPerformance
 {
-
     public enum ColorAnimationMode
     {
-        SingleColor, RGB, HSVLoop, HSV
+        SingleColor,
+        RGB,
+        HSVLoop,
+        HSV
     }
 
     public enum DimmerAnimationMode
     {
-        On, Off, Beat, BeatReverse, Run, RunReverse, Sin, ReverseSin
+        On,
+        Off,
+        Beat,
+        BeatReverse,
+        Run,
+        RunReverse,
+        Sin,
+        ReverseSin
     }
 
     public enum MotionAnimationMode
     {
-        PanLoop, TiltLoop, OffsetTiltLoop, PanTiltLoop, OffsetPanTiltLoop, Focus, Default 
+        PanLoop,
+        TiltLoop,
+        OffsetTiltLoop,
+        PanTiltLoop,
+        OffsetPanTiltLoop,
+        Focus,
+        Default
     }
-    
+
 
     public class LightBeamPerformance : MonoBehaviour
     {
-
         public AddressType AddressType = AddressType.Group;
 
         public ColorAnimationMode ColorAnimationMode = ColorAnimationMode.HSVLoop;
@@ -41,12 +55,12 @@ namespace ProjectBlue.LightBeamPerformance
         public Color LightColor = Color.white;
         public float Saturation = 1f;
 
-        public float Speed = 1f;            // includes "wave speed"
-        public float OffsetStrength = 5f;   // includes "frequency"
+        public float Speed = 1f; // includes "wave speed"
+        public float OffsetStrength = 5f; // includes "frequency"
 
         public Range panRange = new Range(-45, 45);
         public Range tiltRange = new Range(0, 60);
-        
+
         [HideInInspector] public float IntensityMultiplier = 1f;
         [SerializeField] List<LightGroup> lightGroup = new List<LightGroup>();
 
@@ -69,7 +83,8 @@ namespace ProjectBlue.LightBeamPerformance
         public void Initialize()
         {
             // Count all of lights and set address to each light
-            var lightNum = 0; ;
+            var lightNum = 0;
+            ;
             for (var u = 0; u < lightGroup.Count; u++)
             {
                 for (var a = 0; a < lightGroup[u].lights.Count; a++)
@@ -77,7 +92,7 @@ namespace ProjectBlue.LightBeamPerformance
                     // local address
                     lightGroup[u].lights[a].group = u;
                     lightGroup[u].lights[a].address = a;
-                    lightGroup[u].lights[a].LocalAddressOffset = (float)a / lightGroup[u].lights.Count;
+                    lightGroup[u].lights[a].LocalAddressOffset = (float) a / lightGroup[u].lights.Count;
 
                     lightGroup[u].lights[a].globalAddress = lightNum;
                     lightNum++;
@@ -87,7 +102,7 @@ namespace ProjectBlue.LightBeamPerformance
             // Set global address offset
             foreach (var movingLight in lightGroup.SelectMany(group => group.lights))
             {
-                movingLight.GlobalAddressOffset = (float)movingLight.globalAddress / lightNum;
+                movingLight.GlobalAddressOffset = (float) movingLight.globalAddress / lightNum;
 
 #if UNITY_EDITOR
                 EditorUtility.SetDirty(movingLight);
@@ -96,22 +111,27 @@ namespace ProjectBlue.LightBeamPerformance
 
             Debug.Log("Light Beam Initialized");
             initialized = true;
+
+            lightGroup.ForEach(group =>
+            {
+                group.lights.ForEach(light =>
+                {
+                    light.SetIntensity(0);
+                    light.Process();
+                });
+            });
         }
 
         public void ProcessFrame(double masterTime, double clipTime)
         {
             if (!initialized) Initialize();
-            
-            beat = bpm.SecondsToBeat((float)clipTime);
 
-            lightGroup.ForEach(group => {
+            beat = bpm.SecondsToBeat((float) clipTime);
 
-                group.lights.ForEach(light => {
-                    ProcessPerLight(light, (float) masterTime);
-                });
-
+            lightGroup.ForEach(group =>
+            {
+                group.lights.ForEach(light => { ProcessPerLight(light, (float) masterTime); });
             });
-
         }
 
 
@@ -124,10 +144,9 @@ namespace ProjectBlue.LightBeamPerformance
             light.Process();
         }
 
-        
+
         void ColorAnimation(MovingLight light, float time)
         {
-
             switch (ColorAnimationMode)
             {
                 case ColorAnimationMode.SingleColor:
@@ -140,10 +159,11 @@ namespace ProjectBlue.LightBeamPerformance
                     light.SetColor(Color.HSVToRGB(light.GetAddressOffset(AddressType), Saturation, 1));
                     break;
                 case ColorAnimationMode.RGB:
-                    if(light.GetAddressOffset(AddressType) < 1f / 3f)
+                    if (light.GetAddressOffset(AddressType) < 1f / 3f)
                     {
                         light.SetColor(Color.red);
-                    } else if(light.GetAddressOffset(AddressType) < 2f / 3f)
+                    }
+                    else if (light.GetAddressOffset(AddressType) < 2f / 3f)
                     {
                         light.SetColor(Color.green);
                     }
@@ -151,11 +171,11 @@ namespace ProjectBlue.LightBeamPerformance
                     {
                         light.SetColor(Color.blue);
                     }
+
                     break;
                 default:
                     break;
             }
-
         }
 
         void DimmerAnimation(MovingLight light, float time)
@@ -181,10 +201,12 @@ namespace ProjectBlue.LightBeamPerformance
                     light.SetIntensity(0f);
                     break;
                 case DimmerAnimationMode.Sin:
-                    light.SetIntensity(0.5f * Mathf.Sin(light.GetAddressOffset(AddressType) * OffsetStrength + time * Speed) + 0.5f);
+                    light.SetIntensity(0.5f *
+                        Mathf.Sin(light.GetAddressOffset(AddressType) * OffsetStrength + time * Speed) + 0.5f);
                     break;
                 case DimmerAnimationMode.ReverseSin:
-                    light.SetIntensity(0.5f * Mathf.Sin(light.GetAddressOffset(AddressType) * OffsetStrength - time * Speed) + 0.5f);
+                    light.SetIntensity(0.5f *
+                        Mathf.Sin(light.GetAddressOffset(AddressType) * OffsetStrength - time * Speed) + 0.5f);
                     break;
                 default:
                     light.SetIntensity(1f);
@@ -199,7 +221,7 @@ namespace ProjectBlue.LightBeamPerformance
             switch (MotionAnimationMode)
             {
                 case MotionAnimationMode.Focus:
-                    if(Target != null)
+                    if (Target != null)
                         light.LookAt(Target.position);
                     break;
                 case MotionAnimationMode.PanLoop:
@@ -211,7 +233,8 @@ namespace ProjectBlue.LightBeamPerformance
                     light.SetPanDefaultAngle();
                     break;
                 case MotionAnimationMode.OffsetTiltLoop:
-                    light.SetTiltAngle(tiltRange.Sin(time * Speed + light.GetAddressOffset(AddressType) * OffsetStrength));
+                    light.SetTiltAngle(
+                        tiltRange.Sin(time * Speed + light.GetAddressOffset(AddressType) * OffsetStrength));
                     light.SetPanDefaultAngle();
                     break;
                 case MotionAnimationMode.PanTiltLoop:
@@ -219,8 +242,10 @@ namespace ProjectBlue.LightBeamPerformance
                     light.SetTiltAngle(tiltRange.Sin(time));
                     break;
                 case MotionAnimationMode.OffsetPanTiltLoop:
-                    light.SetPanAngle(panRange.Cos(time * Speed + light.GetAddressOffset(AddressType) * OffsetStrength));
-                    light.SetTiltAngle(tiltRange.Sin(time * Speed + light.GetAddressOffset(AddressType) * OffsetStrength));
+                    light.SetPanAngle(
+                        panRange.Cos(time * Speed + light.GetAddressOffset(AddressType) * OffsetStrength));
+                    light.SetTiltAngle(
+                        tiltRange.Sin(time * Speed + light.GetAddressOffset(AddressType) * OffsetStrength));
                     break;
                 case MotionAnimationMode.Default:
                     light.SetPanDefaultAngle();
@@ -240,7 +265,5 @@ namespace ProjectBlue.LightBeamPerformance
             DimmerAnimationMode = dimmer;
             MotionAnimationMode = motion;
         }
-        
     }
-
 }

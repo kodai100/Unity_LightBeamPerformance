@@ -12,7 +12,7 @@ namespace ProjectBlue.LightBeamPerformance
             if (vlb)
             {
                 vlb.color = color;
-                vlb.intensityGlobal = intensity * intensityMultiplier;
+                vlb.intensityGlobal = intensity * intensityMultiplier * 2f;
             }
         }
     }

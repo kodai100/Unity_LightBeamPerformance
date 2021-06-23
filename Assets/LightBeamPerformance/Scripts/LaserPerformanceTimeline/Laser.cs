@@ -43,10 +43,7 @@ namespace ProjectBlue.LightBeamPerformance
                 laserBases[i].transform.localScale = new Vector3(laserWidth, 1, laserLength);
                 laserBases[i].Initialize(i, (float) i / LaserNum, LaserNum, defaultIndicatorDegree, shader);
             }
-        }
 
-        private void Start()
-        {
             foreach (var laser in laserBases)
             {
                 laser.SetDimmer(0);
