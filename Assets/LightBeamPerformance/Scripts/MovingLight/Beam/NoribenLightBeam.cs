@@ -2,18 +2,14 @@
 
 namespace ProjectBlue.LightBeamPerformance
 {
-
     public class NoribenLightBeam : Beam
     {
-
-        [SerializeField]
-        MeshRenderer beamGeometry;
+        [SerializeField] MeshRenderer beamGeometry;
 
         private MaterialPropertyBlock materialPropertyBlock;
 
         protected override void ProcessInternal()
         {
-
             if (beamGeometry)
             {
                 if (materialPropertyBlock == null)
@@ -27,7 +23,6 @@ namespace ProjectBlue.LightBeamPerformance
                 materialPropertyBlock.SetFloat("_Intensity", intensity * intensityMultiplier);
                 beamGeometry.SetPropertyBlock(materialPropertyBlock);
             }
-
         }
     }
 }

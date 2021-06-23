@@ -15,10 +15,27 @@ namespace ProjectBlue.LightBeamPerformance
 
         public Color color = Color.red;
 
+        [SerializeField] private BeamType beamType = BeamType.Default;
         [SerializeField] private Renderer renderer = null;
         [SerializeField] private Shader litShader;
 
         private Material mat = null;
+
+        private void Start()
+        {
+            if (beamType == BeamType.VolumetricLightBeam)
+            {
+#if VOLUMETRIC_LIGHT_BEAM
+                DestroyImmediate(beam.gameObject);
+                beam = null;
+                var vlbPrefab = (GameObject) Resources.Load("VolumetricLightBeam");
+                var vlb = Instantiate(vlbPrefab, transform);
+                vlb.transform.localPosition = Vector3.zero;
+                var vlbWrapper = vlb.GetComponent<VolumetricLightBeam>();
+                beam = vlbWrapper;
+#endif
+            }
+        }
 
         [ContextMenu("Re generate material")]
         private void ReGenerateMaterial()
