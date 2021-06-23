@@ -47,9 +47,10 @@ namespace ProjectBlue.LightBeamPerformance
 
         private void Start()
         {
-            foreach (var laserBase in laserBases)
+            foreach (var laser in laserBases)
             {
-                laserBase.SetDimmer(0);
+                laser.SetDimmer(0);
+                laser.SetColor(LaserColor);
             }
         }
 
