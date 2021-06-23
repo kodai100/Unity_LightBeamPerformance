@@ -1,20 +1,18 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace ProjectBlue.LightBeamPerformance {
-
+namespace ProjectBlue.LightBeamPerformance
+{
     public class Laser : MonoBehaviour
     {
-
-        [Header("Animatable Properties")]
-        public LaserColorMode LaserColorMode = LaserColorMode.SingleColor;
+        [Header("Animatable Properties")] public LaserColorMode LaserColorMode = LaserColorMode.SingleColor;
         public LaserDimmerMode LaserDimmerMode = LaserDimmerMode.On;
         public LaserMotionMode LaserMotionMode = LaserMotionMode.Open;
 
         public Color LaserColor = Color.white;
 
-        public float Speed = 1f;            // includes "wave speed"
-        public float OffsetStrength = 5f;   // includes "frequency"
+        public float Speed = 1f; // includes "wave speed"
+        public float OffsetStrength = 5f; // includes "frequency"
 
         public Range indicatorRange = new Range(0, 40);
         public Range panRange = new Range(-90, 90);
@@ -22,29 +20,36 @@ namespace ProjectBlue.LightBeamPerformance {
 
         public float IntensityMultiplier { get; set; } = 1f;
 
-        [Header("Essential")]
-        public int LaserNum = 6;
-        
+        [Header("Essential")] public int LaserNum = 6;
+
         public float defaultIndicatorDegree = 40;
 
         [SerializeField] float laserWidth = 0.1f;
         [SerializeField] float laserLength = 100f;
 
-        [Header("Essential Objects")]
-        [SerializeField] LaserBase laserBasePrefab;
+        [Header("Essential Objects")] [SerializeField]
+        LaserBase laserBasePrefab;
+
         [SerializeField] Pan pan;
         [SerializeField] Tilt tilt;
         [SerializeField] Shader shader;
-        
+
         [SerializeField] private List<LaserBase> laserBases = new List<LaserBase>();
 
         public void Initialize()
         {
-
             for (var i = 0; i < laserBases.Count; i++)
             {
                 laserBases[i].transform.localScale = new Vector3(laserWidth, 1, laserLength);
-                laserBases[i].Initialize(i, (float)i / LaserNum, LaserNum, defaultIndicatorDegree, shader);
+                laserBases[i].Initialize(i, (float) i / LaserNum, LaserNum, defaultIndicatorDegree, shader);
+            }
+        }
+
+        private void Start()
+        {
+            foreach (var laserBase in laserBases)
+            {
+                laserBase.SetDimmer(0);
             }
         }
 
@@ -57,22 +62,19 @@ namespace ProjectBlue.LightBeamPerformance {
         {
             tiltRange = range;
         }
-        
+
         public void Process(float time, float beat)
         {
-
             foreach (var laserBase in laserBases)
             {
                 ColorAnimation(laserBase, time, beat);
                 DimmerAnimation(laserBase, time, beat);
                 MotionAnimation(laserBase, time, beat);
             }
-           
         }
 
         private void ColorAnimation(LaserBase laser, float time, float beat)
         {
-
             switch (LaserColorMode)
             {
                 case LaserColorMode.SingleColor:
@@ -97,11 +99,11 @@ namespace ProjectBlue.LightBeamPerformance {
                     {
                         laser.SetColor(Color.blue);
                     }
+
                     break;
                 default:
                     break;
             }
-
         }
 
         private void DimmerAnimation(LaserBase laser, float time, float beat)
@@ -164,5 +166,4 @@ namespace ProjectBlue.LightBeamPerformance {
             }
         }
     }
-
 }
