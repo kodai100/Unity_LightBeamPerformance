@@ -12,7 +12,8 @@ namespace ProjectBlue.LightBeamPerformance
 {
     public enum ColorAnimationMode
     {
-        SingleColor,
+        Gradient,
+        GradientLoop,
         RGB,
         HSVLoop,
         HSV
@@ -52,7 +53,7 @@ namespace ProjectBlue.LightBeamPerformance
 
         public Transform Target;
 
-        public Color LightColor = Color.white;
+        public Gradient LightGradient = new Gradient();
         public float Saturation = 1f;
 
         public float Speed = 1f; // includes "wave speed"
@@ -149,8 +150,11 @@ namespace ProjectBlue.LightBeamPerformance
         {
             switch (ColorAnimationMode)
             {
-                case ColorAnimationMode.SingleColor:
-                    light.SetColor(LightColor);
+                case ColorAnimationMode.Gradient:
+                    light.SetColor(LightGradient.Evaluate(light.GetAddressOffset(AddressType)));
+                    break;
+                case ColorAnimationMode.GradientLoop:
+                    light.SetColor(LightGradient.Evaluate((time + light.GetAddressOffset(AddressType)) % 1f));
                     break;
                 case ColorAnimationMode.HSVLoop:
                     light.SetColor(Color.HSVToRGB((time + light.GetAddressOffset(AddressType)) % 1f, Saturation, 1));

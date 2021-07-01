@@ -5,11 +5,11 @@ namespace ProjectBlue.LightBeamPerformance
 {
     public class Laser : MonoBehaviour
     {
-        [Header("Animatable Properties")] public LaserColorMode LaserColorMode = LaserColorMode.SingleColor;
+        [Header("Animatable Properties")] public LaserColorMode LaserColorMode = LaserColorMode.Gradient;
         public LaserDimmerMode LaserDimmerMode = LaserDimmerMode.On;
         public LaserMotionMode LaserMotionMode = LaserMotionMode.Open;
 
-        public Color LaserColor = Color.white;
+        public Gradient LaserGradient = new Gradient();
 
         public float Speed = 1f; // includes "wave speed"
         public float OffsetStrength = 5f; // includes "frequency"
@@ -47,7 +47,7 @@ namespace ProjectBlue.LightBeamPerformance
             foreach (var laser in laserBases)
             {
                 laser.SetDimmer(0);
-                laser.SetColor(LaserColor);
+                laser.SetColor(LaserGradient.Evaluate(laser.AddressOffset));
             }
         }
 
@@ -75,8 +75,11 @@ namespace ProjectBlue.LightBeamPerformance
         {
             switch (LaserColorMode)
             {
-                case LaserColorMode.SingleColor:
-                    laser.SetColor(LaserColor);
+                case LaserColorMode.Gradient:
+                    laser.SetColor(LaserGradient.Evaluate(laser.AddressOffset));
+                    break;
+                case LaserColorMode.GradientLoop:
+                    laser.SetColor(LaserGradient.Evaluate((time + laser.AddressOffset) % 1f));
                     break;
                 case LaserColorMode.HSVLoop:
                     laser.SetColor(Color.HSVToRGB((time + laser.AddressOffset) % 1f, 1, 1));
