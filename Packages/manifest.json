@@ -10,6 +10,7 @@
     "com.unity.ide.vscode": "1.2.3",
     "com.unity.postprocessing": "3.1.0",
     "com.unity.purchasing": "3.1.0",
+    "com.unity.render-pipelines.universal": "11.0.0",
     "com.unity.test-framework": "1.1.24",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.5.5",

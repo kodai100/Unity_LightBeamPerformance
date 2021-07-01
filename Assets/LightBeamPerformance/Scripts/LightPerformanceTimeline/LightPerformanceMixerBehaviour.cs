@@ -5,34 +5,30 @@ using UnityEngine.Timeline;
 
 namespace ProjectBlue.LightBeamPerformance
 {
-
     public class LightPerformanceMixerBehaviour : PlayableBehaviour
     {
-
         public TimelineClip[] Clips { get; set; }
         public PlayableDirector Director { get; set; }
 
         public override void ProcessFrame(Playable playable, FrameData info, object playerData)
         {
-
             var trackBinding = playerData as LightBeamPerformance;
 
             if (!trackBinding)
                 return;
 
             var clipTime = Director.time;
-            
-            var col = Color.black;
+
+            var gradient = new Gradient();
 
             for (var i = 0; i < playable.GetInputCount(); i++)
             {
                 var inputWeight = playable.GetInputWeight(i);
-                var inputPlayable = (ScriptPlayable<LightPerformanceBehaviour>)playable.GetInput(i);
+                var inputPlayable = (ScriptPlayable<LightPerformanceBehaviour>) playable.GetInput(i);
                 var inputBehaviour = inputPlayable.GetBehaviour();
 
                 if (inputWeight > 0.5f)
                 {
-
                     trackBinding.AddressType = inputBehaviour.addressType;
 
                     trackBinding.ChangeState(inputBehaviour.color, inputBehaviour.dimmer, inputBehaviour.motion);
@@ -41,7 +37,7 @@ namespace ProjectBlue.LightBeamPerformance
 
                     trackBinding.panRange = new Range(inputBehaviour.panRange.min, inputBehaviour.panRange.max);
                     trackBinding.tiltRange = new Range(inputBehaviour.tiltRange.min, inputBehaviour.tiltRange.max);
-                    
+
                     trackBinding.Saturation = inputBehaviour.saturation;
                     trackBinding.IntensityMultiplier = inputBehaviour.intensityMultiplier;
 
@@ -52,14 +48,15 @@ namespace ProjectBlue.LightBeamPerformance
                     clipTime = Director.time - clip.start;
                 }
 
-                col = Color.Lerp(col, inputBehaviour.lightColor, inputWeight);
+                if (inputWeight > 0)
+                {
+                    gradient = GradientExtensions.Lerp(gradient, inputBehaviour.lightGradient, inputWeight);
+                }
             }
-            
-            trackBinding.LightColor = col;
+
+            trackBinding.LightGradient = gradient;
 
             trackBinding.ProcessFrame(Director.time, clipTime);
-
         }
     }
-
 }
