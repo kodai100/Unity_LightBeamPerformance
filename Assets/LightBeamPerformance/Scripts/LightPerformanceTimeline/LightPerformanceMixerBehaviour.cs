@@ -20,6 +20,7 @@ namespace ProjectBlue.LightBeamPerformance
             var clipTime = Director.time;
 
             var gradient = new Gradient();
+            float intensity = 0;
 
             for (var i = 0; i < playable.GetInputCount(); i++)
             {
@@ -39,7 +40,6 @@ namespace ProjectBlue.LightBeamPerformance
                     trackBinding.tiltRange = new Range(inputBehaviour.tiltRange.min, inputBehaviour.tiltRange.max);
 
                     trackBinding.Saturation = inputBehaviour.saturation;
-                    trackBinding.IntensityMultiplier = inputBehaviour.intensityMultiplier;
 
                     trackBinding.Speed = inputBehaviour.speed;
                     trackBinding.OffsetStrength = inputBehaviour.offsetStrength;
@@ -50,10 +50,12 @@ namespace ProjectBlue.LightBeamPerformance
 
                 if (inputWeight > 0)
                 {
+                    intensity = Mathf.Lerp(intensity, inputBehaviour.intensityMultiplier, inputWeight);
                     gradient = GradientExtensions.Lerp(gradient, inputBehaviour.lightGradient, inputWeight);
                 }
             }
 
+            trackBinding.IntensityMultiplier = intensity;
             trackBinding.LightGradient = gradient;
 
             trackBinding.ProcessFrame(Director.time, clipTime);
