@@ -28,31 +28,68 @@ namespace ProjectBlue.LightBeamPerformance
                 var inputPlayable = (ScriptPlayable<LightPerformanceBehaviour>) playable.GetInput(i);
                 var inputBehaviour = inputPlayable.GetBehaviour();
 
-                if (inputWeight > 0.5f)
+                if (inputBehaviour.preset == null)
                 {
-                    trackBinding.AddressType = inputBehaviour.addressType;
+                    if (inputWeight > 0.5f)
+                    {
+                        trackBinding.AddressType = inputBehaviour.addressType;
 
-                    trackBinding.ChangeState(inputBehaviour.color, inputBehaviour.dimmer, inputBehaviour.motion);
+                        trackBinding.ChangeState(inputBehaviour.color, inputBehaviour.dimmer, inputBehaviour.motion);
 
-                    trackBinding.ChangeBpm(inputBehaviour.bpm);
+                        trackBinding.ChangeBpm(inputBehaviour.bpm);
 
-                    trackBinding.panRange = new Range(inputBehaviour.panRange.min, inputBehaviour.panRange.max);
-                    trackBinding.tiltRange = new Range(inputBehaviour.tiltRange.min, inputBehaviour.tiltRange.max);
+                        trackBinding.panRange = new Range(inputBehaviour.panRange.min, inputBehaviour.panRange.max);
+                        trackBinding.tiltRange = new Range(inputBehaviour.tiltRange.min, inputBehaviour.tiltRange.max);
 
-                    trackBinding.Saturation = inputBehaviour.saturation;
+                        trackBinding.Saturation = inputBehaviour.saturation;
 
-                    trackBinding.Speed = inputBehaviour.speed;
-                    trackBinding.OffsetStrength = inputBehaviour.offsetStrength;
+                        trackBinding.Speed = inputBehaviour.speed;
+                        trackBinding.OffsetStrength = inputBehaviour.offsetStrength;
 
-                    var clip = Clips[i];
-                    clipTime = Director.time - clip.start;
+                        var clip = Clips[i];
+                        clipTime = Director.time - clip.start;
+                    }
+
+                    if (inputWeight > 0)
+                    {
+                        intensity = Mathf.Lerp(intensity, inputBehaviour.intensityMultiplier, inputWeight);
+                        gradient = GradientExtensions.Lerp(gradient, inputBehaviour.lightGradient, inputWeight);
+                    }
                 }
-
-                if (inputWeight > 0)
+                else
                 {
-                    intensity = Mathf.Lerp(intensity, inputBehaviour.intensityMultiplier, inputWeight);
-                    gradient = GradientExtensions.Lerp(gradient, inputBehaviour.lightGradient, inputWeight);
+
+                    var p = inputBehaviour.preset;
+                    
+                    if (inputWeight > 0.5f)
+                    {
+                        trackBinding.AddressType = p.addressType;
+
+                        trackBinding.ChangeState(p.colorAnimationMode, p.dimmerAnimationMode, p.motionAnimationMode);
+
+                        trackBinding.ChangeBpm(p.bpm);
+
+                        trackBinding.panRange = new Range(p.panRange.min, p.panRange.max);
+                        trackBinding.tiltRange = new Range(p.tiltRange.min, p.tiltRange.max);
+
+                        trackBinding.Saturation = p.saturation;
+
+                        trackBinding.Speed = p.speed;
+                        trackBinding.OffsetStrength = p.offsetStrength;
+
+                        var clip = Clips[i];
+                        clipTime = Director.time - clip.start;
+                    }
+
+                    if (inputWeight > 0)
+                    {
+                        intensity = Mathf.Lerp(intensity, p.intensityMultiplier, inputWeight);
+                        gradient = GradientExtensions.Lerp(gradient, p.gradient, inputWeight);
+                    }
                 }
+                
+                
+                
             }
 
             trackBinding.IntensityMultiplier = intensity;

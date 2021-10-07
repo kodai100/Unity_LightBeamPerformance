@@ -7,6 +7,9 @@ namespace ProjectBlue.LightBeamPerformance
     [Serializable]
     public class LightPerformanceBehaviour : PlayableBehaviour
     {
+
+        [SerializeField] public LightPerformanceClipPreset preset;
+        
         [SerializeField] public AddressType addressType = AddressType.Group;
 
         [SerializeField] public ColorAnimationMode color = ColorAnimationMode.Gradient;
