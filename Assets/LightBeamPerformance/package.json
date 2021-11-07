@@ -1,8 +1,5 @@
 {
   "author": "kodai100",
-  "dependencies": {
-    "com.unity.render-pipelines.universal": "11.0.0"
-  },
   "description": "Light beam performance package for unity.",
   "displayName": "LightBeamPerformance",
   "keywords": [
@@ -11,7 +8,7 @@
   "license": "UNLICENSED",
   "name": "com.kodai100.light-beam-performance",
   "repository": "github:kodai100/Unity_LightBeamPerformance",
-  "unity": "2021.1",
-  "unityRelease": "10f1",
+  "unity": "2020.3",
+  "unityRelease": "21f1",
   "version": "1.3.2"
 }
