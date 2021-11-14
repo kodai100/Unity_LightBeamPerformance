@@ -5,7 +5,7 @@ using UnityEngine;
 namespace ProjectBlue.LightBeamPerformance
 {
     [CustomPropertyDrawer(typeof(LightPerformanceBehaviour))]
-    public class EnemyControlDrawer : PropertyDrawer
+    public class LightPerformanceBehaviourDrawer : PropertyDrawer
     {
         public override float GetPropertyHeight (SerializedProperty property, GUIContent label)
         {
