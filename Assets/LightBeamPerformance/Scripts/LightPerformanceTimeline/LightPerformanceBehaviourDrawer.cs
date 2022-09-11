@@ -21,7 +21,6 @@ namespace ProjectBlue.LightBeamPerformance
 
             if (preset.objectReferenceValue == null)
             {
-                var addressType = property.FindPropertyRelative("addressType");
                 var color = property.FindPropertyRelative("color");
                 
                 var saturation = property.FindPropertyRelative("saturation");
@@ -41,7 +40,6 @@ namespace ProjectBlue.LightBeamPerformance
 
 
                 var singleFieldRect = new Rect(position.x, position.y, position.width, EditorGUIUtility.singleLineHeight);
-                EditorGUILayout.PropertyField(addressType);
                 EditorGUILayout.PropertyField(color);
                 EditorGUILayout.PropertyField(saturation);
                 EditorGUILayout.PropertyField(dimmer);
@@ -60,8 +58,6 @@ namespace ProjectBlue.LightBeamPerformance
                 EditorGUI.BeginDisabledGroup(true);
 
                 var p = preset.objectReferenceValue as LightPerformanceClipPreset;
-                
-                EditorGUILayout.EnumPopup("Address Type", p.addressType);
 
                 EditorGUILayout.EnumPopup("Color Animation Mode", p.colorAnimationMode);
 
@@ -74,7 +70,7 @@ namespace ProjectBlue.LightBeamPerformance
 
                 EditorGUILayout.GradientField("Gradient", p.gradient);
 
-                EditorGUILayout.FloatField("Intensity Multiplier", p.intensityMultiplier);
+                EditorGUILayout.FloatField("Intensity Multiplier", p.intensityMultiplier);  
 
                 EditorGUILayout.FloatField("Offset Strength", p.offsetStrength);
                 

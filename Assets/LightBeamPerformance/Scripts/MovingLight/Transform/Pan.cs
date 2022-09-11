@@ -11,14 +11,14 @@ namespace ProjectBlue.LightBeamPerformance
 
         public Range movableRange = new Range(-180, 180);
 
-        [SerializeField] float lowPassWeight = 0.05f;
+        [SerializeField] float lowPassFilterWeight = 0.1f;
         QuaternionLowPassFilter lowPassFilter;
 
         private void Awake()
         {
             defaultRotation = transform.localRotation;
 
-            lowPassFilter = new QuaternionLowPassFilter(lowPassWeight, transform.localRotation);
+            lowPassFilter = new QuaternionLowPassFilter(lowPassFilterWeight, transform.localRotation);
         }
 
         public void RegisterDefaultRotation()

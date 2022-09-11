@@ -1,76 +1,41 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;
-
 #endif
 
 namespace ProjectBlue.LightBeamPerformance
 {
-    public enum ColorAnimationMode
-    {
-        Gradient,
-        GradientLoop,
-        RGB,
-        HSVLoop,
-        HSV
-    }
-
-    public enum DimmerAnimationMode
-    {
-        On,
-        Off,
-        Beat,
-        BeatReverse,
-        Run,
-        RunReverse,
-        Sin,
-        ReverseSin
-    }
-
-    public enum MotionAnimationMode
-    {
-        PanLoop,
-        TiltLoop,
-        OffsetTiltLoop,
-        PanTiltLoop,
-        OffsetPanTiltLoop,
-        Focus,
-        Default
-    }
-
-
+    
     public class LightBeamPerformance : MonoBehaviour
     {
-        public AddressType AddressType = AddressType.Group;
-
         public ColorAnimationMode ColorAnimationMode = ColorAnimationMode.HSVLoop;
         public DimmerAnimationMode DimmerAnimationMode = DimmerAnimationMode.Beat;
         public MotionAnimationMode MotionAnimationMode = MotionAnimationMode.Default;
 
         public Transform Target;
 
-        public Gradient LightGradient = new Gradient();
+        public Gradient LightGradient = new();
         public float Saturation = 1f;
 
         public float Speed = 1f; // includes "wave speed"
         public float OffsetStrength = 5f; // includes "frequency"
 
-        public Range panRange = new Range(-45, 45);
-        public Range tiltRange = new Range(0, 60);
+        public Range panRange = new(-45, 45);
+        public Range tiltRange = new(0, 60);
 
         [HideInInspector] public float IntensityMultiplier = 1f;
-        [SerializeField] List<LightGroup> lightGroup = new List<LightGroup>();
+        [SerializeField] private List<LightGroup> lightGroup = new();
 
-        private bool initialized = false;
+        private bool initialized;
 
-        float beat;
+        private readonly BPM bpm = new(120);
 
-        BPM bpm = new BPM(120);
-
+        private DimmerAnimation dimmerAnimation;
+        private ColorAnimation colorAnimation;
+        private MotionAnimation motionAnimation;
+        
         private void Start()
         {
             Initialize();
@@ -94,17 +59,13 @@ namespace ProjectBlue.LightBeamPerformance
                     lightGroup[u].lights[a].group = u;
                     lightGroup[u].lights[a].address = a;
                     lightGroup[u].lights[a].LocalAddressOffset = (float) a / lightGroup[u].lights.Count;
-
                     lightGroup[u].lights[a].globalAddress = lightNum;
                     lightNum++;
                 }
             }
-
-            // Set global address offset
+            
             foreach (var movingLight in lightGroup.SelectMany(group => group.lights))
             {
-                movingLight.GlobalAddressOffset = (float) movingLight.globalAddress / lightNum;
-
 #if UNITY_EDITOR
                 EditorUtility.SetDirty(movingLight);
 #endif
@@ -113,151 +74,44 @@ namespace ProjectBlue.LightBeamPerformance
             Debug.Log("Light Beam Initialized");
             initialized = true;
 
+            dimmerAnimation = new DimmerAnimation(bpm);
+            colorAnimation = new ColorAnimation(bpm);
+            motionAnimation = new MotionAnimation(bpm);
+
             lightGroup.ForEach(group =>
             {
-                group.lights.ForEach(light =>
+                group.lights.ForEach(fixture =>
                 {
-                    light.SetIntensity(0);
-                    light.Process();
+                    fixture.SetIntensity(0);
+                    fixture.Process();
                 });
             });
         }
 
-        public void ProcessFrame(double masterTime, double clipTime)
+        public void ProcessFrame(double clipTime)
         {
             if (!initialized) Initialize();
-
-            beat = bpm.SecondsToBeat((float) clipTime);
+            
+            dimmerAnimation.Update((float)clipTime);
+            colorAnimation.Update((float)clipTime);
+            motionAnimation.Update((float)clipTime);
 
             lightGroup.ForEach(group =>
             {
-                group.lights.ForEach(light => { ProcessPerLight(light, (float) masterTime); });
+                group.lights.ForEach(ProcessPerLight);
             });
         }
 
 
-        void ProcessPerLight(MovingLight light, float masterTime)
+        private void ProcessPerLight(MovingLight fixture)
         {
-            ColorAnimation(light, masterTime);
-            DimmerAnimation(light, masterTime);
-            MotionAnimation(light, masterTime);
+            colorAnimation.Animate(ColorAnimationMode, fixture, LightGradient, Saturation);
+            dimmerAnimation.Animate(DimmerAnimationMode, fixture, OffsetStrength, Speed, IntensityMultiplier);
+            motionAnimation.Animate(MotionAnimationMode, fixture, OffsetStrength, Speed, Target, panRange, tiltRange);
 
-            light.Process();
+            fixture.Process();
         }
-
-
-        void ColorAnimation(MovingLight light, float time)
-        {
-            switch (ColorAnimationMode)
-            {
-                case ColorAnimationMode.Gradient:
-                    light.SetColor(LightGradient.Evaluate(light.GetAddressOffset(AddressType)));
-                    break;
-                case ColorAnimationMode.GradientLoop:
-                    light.SetColor(LightGradient.Evaluate((time + light.GetAddressOffset(AddressType)) % 1f));
-                    break;
-                case ColorAnimationMode.HSVLoop:
-                    light.SetColor(Color.HSVToRGB((time + light.GetAddressOffset(AddressType)) % 1f, Saturation, 1));
-                    break;
-                case ColorAnimationMode.HSV:
-                    light.SetColor(Color.HSVToRGB(light.GetAddressOffset(AddressType), Saturation, 1));
-                    break;
-                case ColorAnimationMode.RGB:
-                    if (light.GetAddressOffset(AddressType) < 1f / 3f)
-                    {
-                        light.SetColor(Color.red);
-                    }
-                    else if (light.GetAddressOffset(AddressType) < 2f / 3f)
-                    {
-                        light.SetColor(Color.green);
-                    }
-                    else
-                    {
-                        light.SetColor(Color.blue);
-                    }
-
-                    break;
-                default:
-                    break;
-            }
-        }
-
-        void DimmerAnimation(MovingLight light, float time)
-        {
-            switch (DimmerAnimationMode)
-            {
-                case DimmerAnimationMode.Beat:
-                    light.SetIntensity(beat);
-                    break;
-                case DimmerAnimationMode.BeatReverse:
-                    light.SetIntensity(1 - beat);
-                    break;
-                case DimmerAnimationMode.Run:
-                    light.SetIntensity(light.GetAddressOffset(AddressType) >= beat - 0.1 ? 1f : 0f);
-                    break;
-                case DimmerAnimationMode.RunReverse:
-                    light.SetIntensity(light.GetAddressOffset(AddressType) >= beat - 0.1 ? 0f : 1f);
-                    break;
-                case DimmerAnimationMode.On:
-                    light.SetIntensity(1f);
-                    break;
-                case DimmerAnimationMode.Off:
-                    light.SetIntensity(0f);
-                    break;
-                case DimmerAnimationMode.Sin:
-                    light.SetIntensity(0.5f *
-                        Mathf.Sin(light.GetAddressOffset(AddressType) * OffsetStrength + time * Speed) + 0.5f);
-                    break;
-                case DimmerAnimationMode.ReverseSin:
-                    light.SetIntensity(0.5f *
-                        Mathf.Sin(light.GetAddressOffset(AddressType) * OffsetStrength - time * Speed) + 0.5f);
-                    break;
-                default:
-                    light.SetIntensity(1f);
-                    break;
-            }
-
-            light.MultiplyIntensity(IntensityMultiplier);
-        }
-
-        void MotionAnimation(MovingLight light, float time)
-        {
-            switch (MotionAnimationMode)
-            {
-                case MotionAnimationMode.Focus:
-                    if (Target != null)
-                        light.LookAt(Target.position);
-                    break;
-                case MotionAnimationMode.PanLoop:
-                    light.SetPanAngle(panRange.Sin(time));
-                    light.SetTiltDefaltAngle();
-                    break;
-                case MotionAnimationMode.TiltLoop:
-                    light.SetTiltAngle(tiltRange.Sin(time));
-                    light.SetPanDefaultAngle();
-                    break;
-                case MotionAnimationMode.OffsetTiltLoop:
-                    light.SetTiltAngle(
-                        tiltRange.Sin(time * Speed + light.GetAddressOffset(AddressType) * OffsetStrength));
-                    light.SetPanDefaultAngle();
-                    break;
-                case MotionAnimationMode.PanTiltLoop:
-                    light.SetPanAngle(panRange.Cos(time));
-                    light.SetTiltAngle(tiltRange.Sin(time));
-                    break;
-                case MotionAnimationMode.OffsetPanTiltLoop:
-                    light.SetPanAngle(
-                        panRange.Cos(time * Speed + light.GetAddressOffset(AddressType) * OffsetStrength));
-                    light.SetTiltAngle(
-                        tiltRange.Sin(time * Speed + light.GetAddressOffset(AddressType) * OffsetStrength));
-                    break;
-                case MotionAnimationMode.Default:
-                    light.SetPanDefaultAngle();
-                    light.SetTiltDefaltAngle();
-                    break;
-            }
-        }
-
+        
         public void ChangeBpm(float b)
         {
             bpm.Bpm = b;

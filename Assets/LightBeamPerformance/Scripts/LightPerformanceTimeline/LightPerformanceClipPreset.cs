@@ -5,7 +5,6 @@ namespace ProjectBlue.LightBeamPerformance
     [CreateAssetMenu(fileName = "LightPerformanceClipPreset", menuName = "LightBeamPerformance/CreateLightPerformacePreset")]
     public class LightPerformanceClipPreset : ScriptableObject
     {
-        public AddressType addressType = AddressType.Global;
         public ColorAnimationMode colorAnimationMode = ColorAnimationMode.Gradient;
         [Range(0f, 1f)] public float saturation = 1f;
         public DimmerAnimationMode dimmerAnimationMode = DimmerAnimationMode.On;

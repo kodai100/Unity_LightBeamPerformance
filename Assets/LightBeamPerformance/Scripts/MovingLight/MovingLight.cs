@@ -2,21 +2,13 @@
 
 namespace ProjectBlue.LightBeamPerformance
 {
-
-    public enum AddressType
-    {
-        Global, Group
-    }
-
     public class MovingLight : MonoBehaviour
     {
-        [SerializeField] LightHead head;
+        [SerializeField] private LightHead head;
 
-        [SerializeField]
-        Pan pan;
+        [SerializeField] private Pan pan;
 
-        [SerializeField]
-        Tilt tilt;
+        [SerializeField] private Tilt tilt;
 
         public int group;
         public int address;
@@ -25,18 +17,10 @@ namespace ProjectBlue.LightBeamPerformance
 
         // own 0 - 1 address offset value in light group
         public float LocalAddressOffset;
-        public float GlobalAddressOffset;
-
-        public float GetAddressOffset(AddressType addressType)
+        
+        public float GetAddressOffset()
         {
-            if(addressType == AddressType.Global)
-            {
-                return GlobalAddressOffset;
-            }
-            else
-            {
-                return LocalAddressOffset;
-            }
+            return LocalAddressOffset;
         }
 
         public void Process()
@@ -61,22 +45,22 @@ namespace ProjectBlue.LightBeamPerformance
 
         public void SetPanDefaultAngle()
         {
-            pan?.SetDefault();
+            if(pan) pan.SetDefault();
         }
 
-        public void SetTiltDefaltAngle()
+        public void SetTiltDefaultAngle()
         {
-            tilt?.SetDefault();
+            if(tilt) tilt.SetDefault();
         }
 
         public void SetTiltAngle(float angle)
         {
-            tilt?.SetRotation(angle);
+            if(tilt) tilt.SetRotation(angle);
         }
 
         public void SetPanAngle(float angle)
         {
-            pan?.SetRotation(angle);
+            if(pan) pan.SetRotation(angle);
         }
 
         public void LookAt(Vector3 focusPosition)

@@ -250,6 +250,7 @@ Material:
     - _Offset_Z: 0
     - _Outline_Width: 0
     - _Parallax: 0.02
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _RimLight: 0
