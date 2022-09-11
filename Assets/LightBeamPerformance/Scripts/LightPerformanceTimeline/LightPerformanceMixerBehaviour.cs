@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
 
@@ -14,8 +13,7 @@ namespace ProjectBlue.LightBeamPerformance
         {
             var trackBinding = playerData as LightBeamPerformance;
 
-            if (!trackBinding)
-                return;
+            if (!trackBinding) return;
 
             var clipTime = Director.time;
 
@@ -32,8 +30,6 @@ namespace ProjectBlue.LightBeamPerformance
                 {
                     if (inputWeight > 0.5f)
                     {
-                        trackBinding.AddressType = inputBehaviour.addressType;
-
                         trackBinding.ChangeState(inputBehaviour.color, inputBehaviour.dimmer, inputBehaviour.motion);
 
                         trackBinding.ChangeBpm(inputBehaviour.bpm);
@@ -63,8 +59,6 @@ namespace ProjectBlue.LightBeamPerformance
                     
                     if (inputWeight > 0.5f)
                     {
-                        trackBinding.AddressType = p.addressType;
-
                         trackBinding.ChangeState(p.colorAnimationMode, p.dimmerAnimationMode, p.motionAnimationMode);
 
                         trackBinding.ChangeBpm(p.bpm);
@@ -88,14 +82,13 @@ namespace ProjectBlue.LightBeamPerformance
                     }
                 }
                 
-                
-                
             }
 
             trackBinding.IntensityMultiplier = intensity;
             trackBinding.LightGradient = gradient;
 
-            trackBinding.ProcessFrame(Director.time, clipTime);
+            trackBinding.ProcessFrame(clipTime);
         }
+        
     }
 }

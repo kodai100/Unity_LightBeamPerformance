@@ -9,14 +9,14 @@ namespace ProjectBlue.LightBeamPerformance
         [SerializeField]
         Quaternion defaultRotation;
 
-        public Range movableRange = new Range(-70, 70);
+        public Range movableRange = new(-70, 70);
 
-        [SerializeField] float lowPassWeight = 0.05f;
-        QuaternionLowPassFilter lowPassFilter;
+        [SerializeField] private float lowPassFilterWeight = 0.1f;
+        private QuaternionLowPassFilter lowPassFilter;
 
         private void Awake()
         {
-            lowPassFilter = new QuaternionLowPassFilter(lowPassWeight, transform.localRotation);
+            lowPassFilter = new QuaternionLowPassFilter(lowPassFilterWeight, transform.localRotation);
         }
 
         public void RegisterDefaultRotation()
@@ -48,8 +48,6 @@ namespace ProjectBlue.LightBeamPerformance
             {
                 transform.localRotation = Quaternion.Euler(degree, 0, 0);
             }
-            
-
         }
 
     }
